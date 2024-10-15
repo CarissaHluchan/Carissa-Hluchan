@@ -1,0 +1,28 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 3vw;
+    padding-right: 3vw; */
+    /* border: 2px solid green; */
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon {
+    height: 3rem;
+    padding: 1vw;
+}
+
+.resume-icon {
+    width: 5rem
+}
+
+.contact-wrapper, .resume-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
