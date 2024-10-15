@@ -2,10 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5vw;
-    /* padding: 5vw; */
-    /* padding-left: 3vw;
-    padding-right: 3vw; */
-    /* border: 2px solid green; */
+
 }
 
 .links-wrapper {
@@ -23,6 +20,11 @@
     width: 5rem
 }
 
+.phone-icon {
+    height: 3rem;
+    padding: 1vw;
+}
+
 .contact-icon, 
 .resume-icon:hover {
     cursor: pointer;
@@ -32,4 +34,19 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    margin-bottom: 3vw;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 3vw;
+}
+
+.email-wrapper,
+.phone-wrapper {
+    display: flex;
+    align-items: center;
 }

@@ -1,13 +1,11 @@
-.projects-section {
-    /* display: flex; */
-}
-
 .all-projects-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
 .project-wrapper {
+    color: var(--color-1);
+    background-color: var(--color-2);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -21,6 +19,7 @@
 }
 
 .project-title {
-    font-size: 1.4rem;
-    font-weight: 700;
+    color: var(--color-5);
+    font-size: 1.6rem;
+    font-weight: 900;
 }

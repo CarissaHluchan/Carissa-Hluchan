@@ -8,7 +8,7 @@ function Skills() {
       <h6>Skills:</h6>
       <div className='skills-wrapper'>
         <div className='skills-title'>Languages/Frameworks:</div>
-        <p>React, React-Router, JavaScript, TypeScript, HTML5, CSS3</p>
+        <p> React, React-Router, JavaScript, TypeScript, HTML5, CSS3</p>
 
         <div className='skills-title'>Testing:</div>
         <p>Test-Driven Development (TDD), Unit Testing (Mocha, Chai), Cypress E2E</p>

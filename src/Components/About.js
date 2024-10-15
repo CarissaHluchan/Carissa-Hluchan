@@ -5,6 +5,7 @@ import './About.css';
 function About() {
   return (
     <section className='about-section'>
+      <h2>Web Developer</h2>
       <h3>About:</h3>
       <p>I am a front-end developer in React, JavaScript, CSS, and HTML. After a decade as an Ophthalmic Photographer, where I mastered the technical aspects of specialized equipment and microscopes, I realized I was ready for a new challenge. Seeking a career that fosters continual learning and growth, I transitioned into software development, completing an immersive program at Turing School of Software and Design.</p>
       <p>During this transition, I discovered my passion for building engaging and dynamic user experiences. I thrive in environments that push me to be both persistent and creative, tackling problems from different angles to find effective solutions. Through my work at Turing, I’ve honed my skills in software testing practices such as TDD, unit testing, and Cypress, and I’ve developed a deep appreciation for collaborative problem-solving in group projects.</p>

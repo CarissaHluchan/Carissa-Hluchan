@@ -1,6 +1,11 @@
 :root {
-  --color-1: black;
-  --color-2: white;
+  --color-1: #09090D;
+  --color-2: #617C8C;
+  --color-3: #B4CBD9;
+  --color-4: #A67C6D ;
+  --color-5: #59362E;
+  --color-6: black;
+  --color-7: white;
 }
 
 body {
@@ -8,9 +13,11 @@ body {
   font-size: 1.2rem;
   margin-left: 5vw;
   margin-right: 5vw;
+  background-color: var(--color-3);
 }
 
 h3, h4, h5, h6 {
+  color: var(--color-5);
   font-size: 1.6rem;
   margin: 0;
 }

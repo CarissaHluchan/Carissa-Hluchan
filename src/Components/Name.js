@@ -17,7 +17,6 @@ function Name() {
       </video>
       <div className='name-container'>
         <h1>Carissa Hluchan</h1>
-        <h2>Web Developer</h2>
       </div>
     </main>
   )
