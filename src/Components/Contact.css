@@ -1,6 +1,8 @@
 .contact-section {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5vw;
+    /* padding: 5vw; */
     /* padding-left: 3vw;
     padding-right: 3vw; */
     /* border: 2px solid green; */
@@ -21,8 +23,13 @@
     width: 5rem
 }
 
+.contact-icon, 
+.resume-icon:hover {
+    cursor: pointer;
+}
+
 .contact-wrapper, .resume-wrapper {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
 }

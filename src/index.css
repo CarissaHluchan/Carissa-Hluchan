@@ -6,10 +6,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 h3, h4, h5, h6 {
   font-size: 1.6rem;
   margin: 0;
-  padding-left: 3rem;
 }

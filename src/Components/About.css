@@ -1,7 +1,8 @@
 .about-section {
     display: flex;
     flex-direction: column;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin-bottom: 5vw;
+    /* padding-left: 5vw;
+    padding-right: 5vw; */
     /* border: 2px solid green; */
 }
