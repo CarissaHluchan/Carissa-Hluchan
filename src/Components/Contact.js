@@ -1,7 +1,7 @@
 import React from 'react';
 
 import gitHubIcon from '../assets/github.svg';
-import linkedInIcon from '../assets/linkedIn_icon.svg';
+import linkedInIcon from '../assets/linkedin_icon.svg';
 import phoneIcon from '../assets/phone_icon.png';
 import emailIcon from '../assets/gmail.svg';
 import resumeIcon from '../assets/resume-icon.png';
