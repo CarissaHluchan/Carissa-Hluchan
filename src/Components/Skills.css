@@ -10,3 +10,7 @@
     font-weight: 700;
     color: var(--color-4)
 }
+
+.skill-wrapper {
+    display: flex;
+}

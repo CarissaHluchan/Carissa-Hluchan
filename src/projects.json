@@ -1,0 +1,52 @@
+{
+    "projects" : [
+        {
+            "id" : 1,
+            "title" : "Chess with Frien-EMIES",
+            "description" : "",
+            "repo" : "",
+            "live_site" : ""
+        },
+        {
+            "id" : 2,
+            "title" : "Whisker Watch",
+            "description" : "Whisker Watch is a charming web application designed for cat breed enthusiasts with a particular interest in rare and unusual cat breeds. This interactive platform offers a delightful experience for users who want to explore and celebrate these unique feline companions.",
+            "repo" : "https://github.com/CarissaHluchan/whisker-watch",
+            "live_site" : "https://whisker-watch.vercel.app/"
+        },
+        {
+            "id" : 3,
+            "title" : "Red Horizon",
+            "description" : "Mars exploration app for curious learners to discover images of the surface features of Mars, explore its moons, and images from the Mars rover expeditions.",
+            "repo" : "https://github.com/CarissaHluchan/red-horizon",
+            "live_site" : "https://red-horizon-4zql.vercel.app/"
+        },
+        {
+            "id" : 4,
+            "title" : "Crusty Carrots",
+            "description" : "A movie discovery site, allowing users to discover movies based on title and ratings.",
+            "repo" : "https://github.com/CarissaHluchan/crusty-carrots",
+            "live_site" : "https://carissahluchan.github.io/crusty-carrots/"
+        },
+        {
+            "id" : 5,
+            "title" : "Overlook Hotel",
+            "description" : "A hotel booking tool for hotel customers to search rooms at the Overlook Hotel, manage room bookings and calculate bills.",
+            "repo" : "https://github.com/CarissaHluchan/overlook-hotel",
+            "live_site" : "https://carissahluchan.github.io/overlook-hotel/"
+        },
+        {
+            "id" : 6,
+            "title" : "What's Cookin",
+            "description" : "A recipe tracking / meal planning application that allows users to view recipes they want to cook & plan shopping trips around them. Users can view a list of recipes, filter them by name or tag, & choose recipes to cook.",
+            "repo" : "https://github.com/CarissaHluchan/whats-cookin",
+            "live_site" : "https://carissahluchan.github.io/whats-cookin/"
+        },        {
+            "id" : 7,
+            "title" : "Rock Papper Scissors",
+            "description" : "A game to play two versions of Rock, Paper, Scissors, a classic version, and a more difficult version with five fighter choices adding a lizard and alien/UFO.",
+            "repo" : "https://github.com/CarissaHluchan/rock-paper-scissors",
+            "live_site" : "https://carissahluchan.github.io/rock-paper-scissors/"
+        }
+    ]
+}
