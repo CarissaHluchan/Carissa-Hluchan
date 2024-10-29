@@ -1,11 +1,11 @@
 import React from 'react';
 
-import gitHubIcon from '../assets/github.svg';
-import linkedInIcon from '../assets/linkedin.png';
-import phoneIcon from '../assets/phone_icon.png';
-import emailIcon from '../assets/gmail.svg';
-import resumeIcon from '../assets/resume-icon.png';
-import resume from '../assets/Carissa_Hluchan_Resume.pdf';
+import gitHubIcon from '../../assets/github.svg';
+import linkedInIcon from '../../assets/linkedin.png';
+import phoneIcon from '../../assets/phone_icon.png';
+import emailIcon from '../../assets/gmail.svg';
+import resumeIcon from '../../assets/resume-icon.png';
+import resume from '../../assets/Carissa_Hluchan_Resume.pdf';
 import './Contact.css';
 
 function Contact() {

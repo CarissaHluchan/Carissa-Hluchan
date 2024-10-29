@@ -1,9 +1,9 @@
 import React from 'react';
 
-import mountainsVideo from '../assets/mountains.mp4';
-import nebulaVideo from '../assets/nebula.mp4';
-import growingVideo from '../assets/plant_growing.mp4';
-import earthVideo from '../assets/space_earth.mp4';
+import mountainsVideo from '../../assets/mountains.mp4';
+import nebulaVideo from '../../assets/nebula.mp4';
+import growingVideo from '../../assets/plant_growing.mp4';
+import earthVideo from '../../assets/space_earth.mp4';
 import './Name.css'
 
 function Name() {
