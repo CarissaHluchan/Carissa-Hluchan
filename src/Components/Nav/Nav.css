@@ -1,0 +1,21 @@
+nav {
+    position: absolute;
+    top: 59vw;
+    right: 0vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid red;
+
+}
+
+.nav-link {
+    /* width: 6rem; */
+    font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+    font-weight: 600;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: 1px solid var(--color-6);
+    border-radius: 5px;
+}

@@ -9,3 +9,9 @@ h2 {
     color: var(--color-1);
     text-align: center;
 }
+
+.carousel-image {
+    width: auto;
+    height: 10%;
+    object-fit: cover
+}

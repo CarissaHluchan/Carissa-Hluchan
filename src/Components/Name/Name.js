@@ -16,7 +16,7 @@
 //         />
 //       </video>
 //       <div className='name-container'>
-//         <h1>Carissa Hluchan</h1>
+//        <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Web Developer</span></h1>
 //       </div>
 //     </main>
 //   )
@@ -55,8 +55,7 @@
 //         />
 //       </video>
 //       <div className="name-container">
-//         <h1>Carissa Hluchan <br></br><span className='h1-span'>Web Developer</span></h1>
-//         {/* <h2>Hluchan</h2> */}
+//       <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Web Developer</span></h1>
 //       </div>
 //     </main>
 //   );
@@ -70,7 +69,7 @@ import { useState, useEffect } from 'react';
 import mountainsVideo from '../../assets/mountains.mp4';
 import nebulaVideo from '../../assets/nebula.mp4';
 import growingVideo from '../../assets/plant_growing.mp4';
-// import earthVideo from '../../assets/space_earth.mp4';
+import Nav from '../Nav/Nav';
 import './Name.css'
 
 const videos = [mountainsVideo, nebulaVideo, growingVideo];
@@ -87,6 +86,7 @@ function Name() {
   }, []);
 
   return (
+    <>
     <main className='name-section'>
       <video autoPlay muted loop key={currentVideoIndex}>
         <source
@@ -95,9 +95,11 @@ function Name() {
         />
       </video>
       <div className="name-container">
-        <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Web Developer</span></h1>
+        <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Software Developer</span></h1>
       </div>
     </main>
+    <Nav />
+    </>
   );
 }
 
