@@ -88,19 +88,17 @@ function Name() {
 
   return (
     <>
-    <main className='name-section'>
-      <video autoPlay muted loop key={currentVideoIndex}>
-        <source
-          src={videos[currentVideoIndex]}
-          type="video/mp4"
-        />
-      </video>
-      <div className="name-container">
-        <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Software Developer</span></h1>
-      </div>
-    </main>
-    {/* <Nav /> */}
-    {/* <Footer /> */}
+      <main className='name-section'>
+        <video autoPlay muted loop key={currentVideoIndex}>
+          <source
+            src={videos[currentVideoIndex]}
+            type="video/mp4"
+          />
+        </video>
+        <div className="name-container">
+          <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Software Developer</span></h1>
+        </div>
+      </main>
     </>
   );
 }

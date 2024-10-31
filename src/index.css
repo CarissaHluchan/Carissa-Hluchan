@@ -23,13 +23,19 @@
   --light-5: #f6f6f6;
 }
 
+#root {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   height: 100%;
   margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  /* margin-left: 5vw; */
+  /* margin-right: 5vw; */
   background-color: var(--dark-1);
 }
 

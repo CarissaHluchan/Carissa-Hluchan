@@ -1,6 +1,5 @@
-nav {
-    background-color: var(--dark-1);
-    /* background-color: var(--dark-2); */
+/* nav {
+    background-color: var(--dark-2);
     position: absolute;
     top: 56vw;
     right: 0vw;
@@ -9,12 +8,23 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
-    /* border: 2px solid red; */
+} */
+
+nav {
+    background-color: var(--dark-2);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    position: relative; 
+    top: 56vw;
+    right: 0vw;
 }
 
 .nav-link {
     /* width: 6rem; */
-    background-color: var(--dark-2);
+    background-color: var(--dark-1);
     font-family: "Open Sans", sans-serif;
     font-size: clamp(0.7rem, 1.2vw, 1.2rem);
     font-weight: 600;
