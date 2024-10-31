@@ -1,4 +1,4 @@
-import { Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Name from '../Name/Name';
 import Nav from '../Nav/Nav'
@@ -13,6 +13,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Nav />
+      <Name />
       <Routes>
         <Route path="/" element={<Name />} />
         <Route path="/about" element={<About /> } />
@@ -21,6 +23,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

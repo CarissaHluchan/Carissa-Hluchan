@@ -19,7 +19,7 @@ const images = [
 function About() {
   return (
     <section className='about-section'>
-      <h2>About:</h2>
+      <h2>About Me:</h2>
       <div className="box">
       <Carousel useKeyboardArrows={true} showThumbs={false} >
         {images.map((URL, index) => (

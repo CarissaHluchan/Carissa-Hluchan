@@ -70,6 +70,7 @@ import mountainsVideo from '../../assets/mountains.mp4';
 import nebulaVideo from '../../assets/nebula.mp4';
 import growingVideo from '../../assets/plant_growing.mp4';
 import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 import './Name.css'
 
 const videos = [mountainsVideo, nebulaVideo, growingVideo];
@@ -98,7 +99,8 @@ function Name() {
         <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Software Developer</span></h1>
       </div>
     </main>
-    <Nav />
+    {/* <Nav /> */}
+    {/* <Footer /> */}
     </>
   );
 }

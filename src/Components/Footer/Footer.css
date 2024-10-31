@@ -1,3 +1,13 @@
 footer {
-    height: 10vw;
+    height: 4rem;
+    width: 100vw;
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    border: 2px solid green;
+}
+
+.footer-link {
+    width: 2rem;
+    height: auto
 }
