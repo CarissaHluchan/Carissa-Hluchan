@@ -7,55 +7,91 @@
 }
 
 h3, h4, h5 {
-    /* width: 25vw; */
+    width: 25vw;
     display: flex;
     justify-content: flex-end;
-    color: var(--dark-4);
-    font-family: "Cinzel", serif;
-    font-size: 1.5rem;
+    /* border: 1px solid green;; */
 }
 
 .contact-content {
     color: var(--color-2);
 }
 
+/*----// Email //----*/
 .email-icon {
     height: 3rem;
     padding: 1vw;
 }
 
-.resume-icon {
-    width: 4rem
-}
 
+/*----// Phone //----*/
 .phone-icon {
     height: 3rem;
     padding: 1vw;
 }
 
-.contact-icon, 
-.resume-icon:hover {
-    cursor: pointer;
+.popup {
+    /* position: absolute; */
+    position: relative; 
+    top:0;
+    left:0;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem 1rem;
+    background-color: var(--dark-2);
+    color: var(--color-2);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out forwards;
+    z-index: 10;
 }
 
-.contact-wrapper {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-bottom: 3vw;
+/* Animation for fading in and out */
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10%, 90% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
-/* .contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin-top: 3vw;
-} */
+/*----// Resume //----*/
+.resume-icon {
+    width: 4rem
+}
+
+/*----// All wrappers //----*/
 
 .email-wrapper,
 .phone-wrapper,
 .resume-wrapper {
     display: flex;
     align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.email-content-wrapper,
+.phone-content-wrapper,
+.resume-content-wrapper {
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red;; */
+}
+
+.email-content-wrapper,
+.phone-content-wrapper {
+    padding-left: 0.1rem;
+}
+
+.email-content-wrapper,
+.phone-content-wrapper, 
+.resume-content-wrapper {
+    margin-left: 5vw;
+}
+
+.contact-icon,
+.phone-icon,
+.resume-icon:hover {
+    cursor: pointer;
 }

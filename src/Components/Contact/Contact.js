@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // import gitHubIcon from '../../assets/github.svg';
@@ -10,44 +10,50 @@ import resume from '../../assets/Carissa_Hluchan_Resume.pdf';
 import './Contact.css';
 
 function Contact() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handlePhoneClick = () => {
+    navigator.clipboard.writeText("(702) 738-8031")
+    .then(() => {
+      setShowPopup(true); // Show popup
+      setTimeout(() => setShowPopup(false), 2000); // Hide after 2 seconds
+    })
+    .catch(err => console.error("Failed to copy text: ", err));
+};
+
   return (
     <section className='contact-section'>
-      {/* <div className='links-wrapper'>
-        <Link to="https://github.com/CarissaHluchan" target="_blank" rel="noopener noreferrer">
-          <img src={gitHubIcon} alt="GitHub" className='contact-icon' />
-        </Link>
-        <Link to="https://www.linkedin.com/in/carissahluchan" target="_blank" rel="noopener noreferrer">
-          <img src={linkedInIcon} alt="LinkedIn" className='contact-icon' />
-        </Link>
-      </div> */}
-
-      {/* <div className='contact-container'> */}
-      <div className='contact-wrapper'>
         <h2>Contact:</h2>
 
         <div className='email-wrapper'>
           <h3>Email:</h3>
-          <Link to="mailto:CarissaHluchan@gmail.com">
-            <img src={emailIcon} alt="Email" className='email-icon' />
-          </Link>
-          <div className='contact-content'>CarissaHluchan@gmail.com</div>
+          <div className='email-content-wrapper'>
+            <Link to="mailto:CarissaHluchan@gmail.com">
+              <img src={emailIcon} alt="Email" className='email-icon' />
+            </Link>
+            <div className='contact-content'>CarissaHluchan@gmail.com</div>
+          </div>
         </div>
 
         <div className='phone-wrapper'>
           <h4>Phone number:</h4>
-          <img src={phoneIcon} alt='Phone' className='phone-icon' />
-          <div className='contact-content'>(702) 738-8031</div>
+          <div className='phone-content-wrapper' onClick={handlePhoneClick}>
+            <img src={phoneIcon} alt='Phone' className='phone-icon' />
+            <div className='contact-content'>(702) 738-8031</div>
+          </div>
+          {showPopup && <div className="popup">Phone number copied!</div>}
         </div>
 
         <div className='resume-wrapper'>
           <h5>Resume:</h5>
-          <Link to={resume} target="_blank" rel="noopener noreferrer" download="Carissa_Hluchan_Resume.pdf">
-            <img src={resumeIcon} alt="Resume" className='resume-icon' />
-          </Link>
-          <div className='contact-content'>Click to download</div>
+          <div className='resume-content-wrapper' >
+            <Link to={resume} target="_blank" rel="noopener noreferrer" download="Carissa_Hluchan_Resume.pdf">
+              <img src={resumeIcon} alt="Resume" className='resume-icon' />
+            </Link>
+            <div className='contact-content'>Click to download</div>
+          </div>
         </div>
-      </div>
-      {/* </div> */}
+
     </section>
   );
 }
