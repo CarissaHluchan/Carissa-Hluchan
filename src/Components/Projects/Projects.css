@@ -1,12 +1,15 @@
-.all-projects-wrapper {
-    display: flex;
-    flex-wrap: wrap;
+.projects-section {
     margin-bottom: 5vw;
     margin-left: 5vw;
     margin-right: 5vw;
 }
 
-.project-wrapper {
+.all-projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .project-wrapper {
     color: var(--color-1);
     background-color: var(--color-2);
     display: flex;
@@ -25,4 +28,4 @@
     color: var(--color-5);
     font-size: 1.6rem;
     font-weight: 900;
-}
+} */

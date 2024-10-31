@@ -5,6 +5,8 @@ import { SiMaterialdesignicons } from "react-icons/si";
 import { IoIosContrast } from "react-icons/io";
 
 import momentIcon from '../../assets/moment-js.svg';
+import gitHubIcon from '../../assets/github.svg';
+import vercelIcon from '../../assets/vercel.svg';
 import miroIcon from '../../assets/miro.png';
 import canvaIcon from '../../assets/canva.png';
 import tddIcon from '../../assets/tdd.png';
@@ -20,7 +22,7 @@ function Skills() {
     <section className='skills-section'>
       <h2>Skills:</h2>
       <div className='skills-wrapper'>
-        <h3 className='skills-title'>Languages:</h3>
+        <div className='skills-title'>Languages:</div>
 
         <div className='skills-list'>
 
@@ -47,7 +49,7 @@ function Skills() {
       </div>
 
       <div className='skills-wrapper'>
-        <h4 className='skills-title'>Libraries:</h4>
+        <div className='skills-title'>Libraries:</div>
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
@@ -56,7 +58,7 @@ function Skills() {
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
+            <img className='dark-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
             <div>React-Router</div>
           </div>
 
@@ -69,7 +71,7 @@ function Skills() {
 
 
       <div className='skills-wrapper'>
-        <h5 className='skills-title'>Testing:</h5>
+        <div className='skills-title'>Testing:</div>
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
@@ -85,19 +87,19 @@ function Skills() {
 
           <div className='skill-wrapper'>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" />
-            <div>Cypress</div>
+            <div className='dark-icon'>Cypress</div>
           </div>
         </div>
       </div>
 
 
       <div className='skills-wrapper'>
-        <h6 className='skills-title'>Workflow:</h6>
+        <div className='skills-title'>Workflow:</div>
 
         <div className='skills-list'>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            <img src={gitHubIcon} />
             <div>GitHub, GitHub project board, GitHub issues</div>
           </div>
 
@@ -126,13 +128,13 @@ function Skills() {
         <div className='skills-list'>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            <img src={gitHubIcon} />
             <div>GitHub Pages</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" />
-            <div>Vercel</div>
+            <img src={vercelIcon}/>
+            <div className='dark-icon'>Vercel</div>
           </div>
         </div>
       </div>
@@ -173,7 +175,7 @@ function Skills() {
           </div>
 
           <div className='skill-wrapper'>
-            <SiMaterialdesignicons />
+            <SiMaterialdesignicons className='img'/>
             <div>UI/UX</div>
           </div>
 
@@ -196,17 +198,17 @@ function Skills() {
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
-            <RxAccessibility />
+            <RxAccessibility className='img'/>
             <div>Meet WCAG standards by implementing ARIA landmarks</div>
           </div>
 
           <div className='skill-wrapper'>
-            <HiSpeakerWave />
+            <HiSpeakerWave className='img'/>
             <div>Testing with screen readers</div>
           </div>
 
           <div className='skill-wrapper'>
-            <IoIosContrast />
+            <IoIosContrast className='img'/>
             <div>Creating visual contrast</div>
           </div>
 

@@ -11,7 +11,7 @@
 } */
 
 nav {
-    background-color: var(--dark-2);
+    background-color: var(--dark-7);
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -26,7 +26,7 @@ nav {
 .nav-link {
     /* width: 6rem; */
     background-color: var(--dark-1);
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cinzel", serif;
     font-size: clamp(0.7rem, 1.2vw, 1.2rem);
     font-weight: 600;
     padding-right: 0.6rem;

@@ -15,6 +15,7 @@
   --dark-4: #dad4ef;
   --dark-5: #2c3d36;
   --dark-6: #2d3230;
+  --dark-7: #264256;
   /*---// Light Mode //---*/
   --light-1: #385b0a;
   --light-2: #59464d;
@@ -47,7 +48,8 @@ h2 {
   color: var(--dark-3);
   /* margin: 0; */
 }
-h3, h4, h5, h6, h7, h8, h9 {
+
+h3, h4, h5, h6 {
   color: var(--dark-4);
   font-family: "Cinzel", serif;
   font-size: 1.5rem;
