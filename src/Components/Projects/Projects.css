@@ -1,6 +1,9 @@
 .all-projects-wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .project-wrapper {

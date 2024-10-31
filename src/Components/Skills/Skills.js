@@ -18,7 +18,7 @@ import './Skills.css'
 function Skills() {
   return (
     <section className='skills-section'>
-      <h6>Skills:</h6>
+      <h2>Skills:</h2>
       <div className='skills-wrapper'>
         <div className='skills-title'>Languages:</div>
 

@@ -2,22 +2,30 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5vw;
-
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
-.links-wrapper {
+h3, h4, h5 {
+    /* width: 25vw; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    color: var(--dark-4);
+    font-family: "Cinzel", serif;
+    font-size: 1.5rem;
 }
 
-.contact-icon {
+.contact-content {
+    color: var(--color-2);
+}
+
+.email-icon {
     height: 3rem;
     padding: 1vw;
 }
 
 .resume-icon {
-    width: 5rem
+    width: 4rem
 }
 
 .phone-icon {
@@ -30,23 +38,24 @@
     cursor: pointer;
 }
 
-.contact-wrapper, .resume-wrapper {
+.contact-wrapper {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 3vw;
 }
 
-.contact-container {
+/* .contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 3vw;
-}
+} */
 
 .email-wrapper,
-.phone-wrapper {
+.phone-wrapper,
+.resume-wrapper {
     display: flex;
     align-items: center;
 }

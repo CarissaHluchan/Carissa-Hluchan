@@ -1,5 +1,11 @@
 .skills-section {
     margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    h2 {
+        color: var(--dark-3);
+    }
 }
 
 .skills-wrapper {
