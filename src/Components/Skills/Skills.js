@@ -20,75 +20,87 @@ function Skills() {
     <section className='skills-section'>
       <h2>Skills:</h2>
       <div className='skills-wrapper'>
-        <div className='skills-title'>Languages:</div>
+        <h3 className='skills-title'>Languages:</h3>
 
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-          <div>JavaScript</div>
-        </div>
+        <div className='skills-list'>
 
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-          <div>TypeScript</div>
-        </div>
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            <div className='skill-item'>JavaScript</div>
+          </div>
 
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-          <div>HTML</div>
-        </div>
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+            <div className='skill-item'>TypeScript</div>
+          </div>
 
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-          <div>CSS</div>
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+            <div>HTML</div>
+          </div>
+
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+            <div>CSS</div>
+          </div>
         </div>
       </div>
 
       <div className='skills-wrapper'>
-        <div className='skills-title'>Libraries:</div>
+        <h4 className='skills-title'>Libraries:</h4>
 
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-          <div>React</div>
-        </div>
+        <div className='skills-list'>
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+            <div>React</div>
+          </div>
 
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
-          <div>React-Router</div>
-        </div>
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
+            <div>React-Router</div>
+          </div>
 
-        <div className='skill-wrapper'>
-          <img src={momentIcon} />
-          <div>Moment</div>
-        </div>
-
-      </div>
-
-      <div className='skills-title'>Testing:</div>
-
-      <div className='skills-wrapper'>
-        <div>
-          <img src={tddIcon} />
-          <div>Test-Driven Development (TDD)</div>
-        </div>
-
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" />
-          <img src="https://profilinator.rishav.dev/skills-assets/chai.png" />
-          <div>Unit Testing (Mocha, Chai),</div>
-        </div>
-
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" />
-          <div>Cypress</div>
+          <div className='skill-wrapper'>
+            <img src={momentIcon} />
+            <div>Moment</div>
+          </div>
         </div>
       </div>
 
-      <div className='skills-title'>Workflow:</div>
 
       <div className='skills-wrapper'>
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-          <div>GitHub, GitHub project board, GitHub issues</div>
+        <h5 className='skills-title'>Testing:</h5>
+
+        <div className='skills-list'>
+          <div className='skill-wrapper'>
+            <img src={tddIcon} />
+            <div>Test-Driven Development (TDD)</div>
+          </div>
+
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" />
+            <img src="https://profilinator.rishav.dev/skills-assets/chai.png" />
+            <div>Unit Testing (Mocha, Chai),</div>
+          </div>
+
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" />
+            <div>Cypress</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className='skills-wrapper'>
+        <h6 className='skills-title'>Workflow:</h6>
+
+        <div className='skills-list'>
+
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            <div>GitHub, GitHub project board, GitHub issues</div>
+          </div>
+
 
           <div className='skill-wrapper'>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
@@ -105,10 +117,14 @@ function Skills() {
             <div>Vite.js</div>
           </div>
         </div>
+      </div>
 
-        <div className='skills-title'>Hosting:</div>
 
-        <div className='skills-wrapper'>
+      <div className='skills-wrapper'>
+        <h7 className='skills-title'>Hosting:</h7>
+
+        <div className='skills-list'>
+
           <div className='skill-wrapper'>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
             <div>GitHub Pages</div>
@@ -118,12 +134,14 @@ function Skills() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" />
             <div>Vercel</div>
           </div>
-
         </div>
+      </div>
 
-        <div className='skills-title'>Design:</div>
 
-        <div className='skills-wrapper'>
+      <div className='skills-wrapper'>
+        <h8 className='skills-title'>Design:</h8>
+
+        <div className='skills-list'>
           <div className='skill-wrapper'>
             <img src={responsiveIcon} />
             <div>Responsive Design</div>
@@ -171,32 +189,36 @@ function Skills() {
         </div>
       </div>
 
-      <div className='skills-title'>Accessibility:</div>
+
 
       <div className='skills-wrapper'>
-        <div className='skill-wrapper'>
-          <RxAccessibility />
-          <div>Meet WCAG standards by implementing ARIA landmarks</div>
-        </div>
+        <h9 className='skills-title'>Accessibility:</h9>
 
-        <div className='skill-wrapper'>
-          <HiSpeakerWave />
-          <div>Testing with screen readers</div>
-        </div>
+        <div className='skills-list'>
+          <div className='skill-wrapper'>
+            <RxAccessibility />
+            <div>Meet WCAG standards by implementing ARIA landmarks</div>
+          </div>
 
-        <div className='skill-wrapper'>
-          <IoIosContrast />
-          <div>Creating visual contrast</div>
-        </div>
+          <div className='skill-wrapper'>
+            <HiSpeakerWave />
+            <div>Testing with screen readers</div>
+          </div>
 
-        <div className='skill-wrapper'>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" />
-          <div>Chrome Dev Tools - Lighthouse</div>
-        </div>
+          <div className='skill-wrapper'>
+            <IoIosContrast />
+            <div>Creating visual contrast</div>
+          </div>
 
-        <div className='skill-wrapper'>
-          <img src={waveIcon} />
-          <div>Wave</div>
+          <div className='skill-wrapper'>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" />
+            <div>Chrome Dev Tools - Lighthouse</div>
+          </div>
+
+          <div className='skill-wrapper'>
+            <img src={waveIcon} />
+            <div>Wave</div>
+          </div>
         </div>
       </div>
 

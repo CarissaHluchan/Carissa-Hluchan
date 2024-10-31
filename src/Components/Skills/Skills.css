@@ -3,20 +3,26 @@
     margin-left: 5vw;
     margin-right: 5vw;
 
-    h2 {
-        color: var(--dark-3);
+    img {
+        width: 1.5rem;
     }
 }
 
 .skills-wrapper {
     margin-top: 2vw;
+    display: flex;
+    border: 1px solid red;
 }
 
 .skills-title {
     font-weight: 700;
-    color: var(--color-4)
+    /* color: var(--color-4) */
 }
 
 .skill-wrapper {
     display: flex;
+}
+
+.skills-list {
+    border: 1px solid green;
 }
