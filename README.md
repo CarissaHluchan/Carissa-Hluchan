@@ -7,8 +7,9 @@ A portfolio page for Web Developer Carissa Hluchan
 ### Technology:
 [//]: <> (Add technology you used for this project.) 
 1. React
-2. Cypress
-3. CSS
+2. Router
+3. Cypress
+4. CSS
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
@@ -33,7 +34,8 @@ A portfolio page for Web Developer Carissa Hluchan
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
-This project took me 4 hours to complete MVP, but new iterations are coming.
+This project took me 4 hours to complete MVP.
+Updated verson now contains Router with a Nav bar and toggle for light and dark modes
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
