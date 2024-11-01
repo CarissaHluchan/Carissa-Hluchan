@@ -1,0 +1,31 @@
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.testimonial-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.testimonial-name {
+    font-family: "Cinzel", serif;
+    font-size: 1.2rem;
+    color: var(--dark-3);
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+        text-decoration: underline;
+        margin-right: 0.3rem;
+        color: var(--dark-3);
+    }
+}
+
+.testimonial-p {
+    font-size: 1rem;
+}

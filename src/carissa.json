@@ -1,6 +1,36 @@
 {
     "about": "I am a front-end developer in React, JavaScript, CSS, and HTML. After a decade as an Ophthalmic Photographer, where I mastered the technical aspects of specialized equipment and microscopes, I realized I was ready for a new challenge. Seeking a career that fosters continual learning and growth, I transitioned into software development, completing an immersive program at Turing School of Software and Design.\n\nDuring this transition, I discovered my passion for building engaging and dynamic user experiences. I thrive in environments that push me to be both persistent and creative, tackling problems from different angles to find effective solutions. Through my work at Turing, I’ve honed my skills in software testing practices such as unit testing and Cypress. I’ve developed a deep appreciation for collaborative problem-solving in group projects. I’m especially passionate about styling and UI design—creating visually compelling, intuitive interfaces that delight users. Whether it’s crafting responsive layouts or exploring innovative CSS techniques, I love using my creativity to bring ideas to life.\n\nWhen I’m not coding, you’ll find me outdoors—hiking, rock climbing, and split boarding. The challenge and creativity I find in outdoor adventures often fuel my problem-solving approach as a developer. Over four years, I had a project where I climbed all 58 peaks in Colorado, over 14,000 ft in elevation. I started small, one mountain at a time, tackling the easier class 2 mountains first and gradually tackling the more difficult summits in class 3 and class 4. After finishing the project, I went back to some of these peaks and tackled them with more skills on class 5 routes, multi-pitched with rock climbing gear. This journey reflects my approach to software development—starting with a solid foundation, learning, growing, and taking on bigger challenges.\n\nLet’s connect! Explore my portfolio and GitHub for more on my projects, and feel free to message me on LinkedIn or Slack (Carissa Hluchan) to discuss potential collaborations or opportunities.",
     "skills": "",
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Lance Nelson",
+            "title": "Backend Software Engineer",
+            "linkedIn": "https://www.linkedin.com/in/lance-nelson",
+            "testimonial": "During our time together at Turing, Carissa and I had the opportunity to collaborate on a project together during our last inning before graduation and I have nothing but great things to say about my experience with her! She has excellent communication and organization skills, as well as a monumental arsenal of front-end coding knowledge. As someone who hasn't written any Javascript, watching her code and debug while working on our project was mesmerizing. Carissa truly knows her stuff and any team of devs out there would be lucky to have her!"
+        },
+        {
+            "id": 2,
+            "name": "Terra Manning",
+            "title": "Full-Stack Software Engineer",
+            "linkedIn": "https://www.linkedin.com/in/terra-manning",
+            "testimonial": "Carissa is a great person to collaborate with. She is well respected in our cohort and everyone loves working with her. Carissa is dedicated, self-motivated, methodical, and very capable. She is a self starter with stellar technical skills and is a valuable contributor to our projects. I thoroughly enjoy working with her at Turing School of Software and Design."
+        },
+        {
+            "id": 3,
+            "name": "Seth Way",
+            "title": "Software Engineer",
+            "linkedIn": "https://www.linkedin.com/in/sethway",
+            "testimonial": "Carissa is creative, thoughtful, and communicates well and this really stands out in her coding. She writes clean functional code and picks up new concepts with impressive speed. She's be an asset to any team."
+        },
+        {
+            "id": 4,
+            "name": "Zelalem Fitru",
+            "title": "Front End Engineer",
+            "linkedIn": "https://www.linkedin.com/in/zelalemfitru",
+            "testimonial": "Carissa is an amazing student with strong attention to detail, it was great to witness her grow as a Front-End developer."
+        }
+    ],
     "projects": [
         {
             "id": 1,
