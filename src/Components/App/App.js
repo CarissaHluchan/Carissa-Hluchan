@@ -1,4 +1,5 @@
-import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import { Route, Routes} from 'react-router-dom';
 
 import Name from '../Name/Name';
 import Nav from '../Nav/Nav';
@@ -12,11 +13,25 @@ import Footer from '../Footer/Footer';
 import './App.css';
 
 function App() {
+  const [isLightMode, setLightMode] = useState(true);
+
+  const root = document.getElementById('root');
+
+  if (!isLightMode) {
+    root.classList.add('dark')
+  } else  {
+    root.classList.remove('dark')
+  }
+
+  const handleClick = () => {
+    setLightMode(prev => !prev);
+  }
+
   return (
       <div className="App">
         <header className="header">
           <Name />
-          <Nav />
+          <Nav isLightMode={isLightMode} handleClick={handleClick}/>
         </header>
         <main className="main-content">
           <Routes>

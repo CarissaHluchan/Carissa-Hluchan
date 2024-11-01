@@ -10,14 +10,13 @@
     margin-right: 5vw;
 
     h2 {
-        color: var(--dark-3);
+        color: var(--color-6);
         font-family: "Cinzel", serif;
         /* text-align: center; */
     }
 
     p {
-        color: var(--color-2);
+        color: var(--text);
         font-size: 1rem;
     }
 }
-

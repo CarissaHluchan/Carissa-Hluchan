@@ -36,7 +36,7 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
 
     return (
         <div className='project-wrapper' id={id} onClick={handleProjectClick}>
-            <h3 className='title'>{title}</h3>
+            <h3 className='project-title'>{title}</h3>
             <p className='project-description'>{description}</p>
             <h4 className='tech'>Technologies:</h4>
             <div className='tech-box-wrapper'>{techBox}</div>

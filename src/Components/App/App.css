@@ -6,9 +6,6 @@
 
 .header {
     flex-shrink: 0;
-    /* aspect-ratio: 16 / 9; */
-    /* height: auto;  */
-    /* height: 70vw; */
     height: calc(57vw + 3rem);
 }
 

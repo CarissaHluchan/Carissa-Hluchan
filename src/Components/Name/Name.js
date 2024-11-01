@@ -81,9 +81,9 @@ function Name() {
   useEffect(() => {
     const videoInterval = setInterval(() => {
       setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videos.length);
-    }, 12000); // Change video every 10 seconds
+    }, 12000); 
 
-    return () => clearInterval(videoInterval); // Cleanup interval on component unmount
+    return () => clearInterval(videoInterval); 
   }, []);
 
   return (

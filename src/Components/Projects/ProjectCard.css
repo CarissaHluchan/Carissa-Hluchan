@@ -1,6 +1,6 @@
 .project-wrapper {
     /* color: var(--color-1); */
-    background-color: var(--dark-5);
+    background-color: var(--color-5);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -8,7 +8,7 @@
     align-items: center;
     width: 20rem;
     padding: 3vw;
-    border: 1px solid var(--color-1);
+    border: 1px solid var(--border);
     border-radius: 10px;
     margin: 1vw;
 
@@ -38,9 +38,9 @@
 }
 
 .project-title {
-    /* color: var(--color-5); */
-    font-size: 1.6rem;
-    font-weight: 900;
+    color: var(--color-6);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .tech-box-wrapper {
@@ -51,13 +51,13 @@
     /* background-color: var(--dark-7); */
 }
 
-.tech-box {
+/* .tech-box {
     background-color: var(--dark-3);
-    color: var(--color-1);
+    color: var(--text-dark);
     padding: 0.1rem;
     border-radius: 5px;
     margin: 0.1rem;
-}
+} */
 
 .tech-image,
 .tech-image-dark-bg {

@@ -22,9 +22,8 @@
 }
 
 .skills-title {
-    color: var(--dark-4);
+    color: var(--color-4);
     font-family: "Cinzel", serif;
-    /* font-size: 1.5rem; */
     width: 25vw;
     font-weight: 700;
     display: flex;
@@ -45,5 +44,5 @@
 
 .dark-icon {
     /* background-color: var(--color-2); */
-    color: white;
+    /* color: white; */
 }

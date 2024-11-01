@@ -5,9 +5,9 @@
     /* position: fixed; */
     top: 3vw;
     left: 7vw;
-    background-color: var(--dark-6);
+    background-color: var(--color-3);
     padding: 5vw;
-    border: 1px solid var(--color-2);
+    border: 1px solid var(--border);
     border-radius: 5px;
     font-size: 1rem;
 
@@ -23,7 +23,7 @@
     }
 
     h3, h4 {
-        color: var(--dark-4);
+        color: var(--color-4);
         font-size: 1.2rem;
         margin-top: 2rem;
     }
@@ -45,8 +45,8 @@
         font-family: "Cinzel", serif;
         font-size: 0.8rem;
         font-weight: 700;
-        color: var(--color-1);
-        background-color: var(--dark-3);
+        color: var(--bg);
+        background-color: var(--color-6);
         padding: 0.5rem;
         border-radius: 5px;
         cursor: pointer;
@@ -61,10 +61,10 @@
     }
 
     button {
-        color: var(--color-1);
+        color: var(--bg);
         font-weight: 700;
         padding: 0.5rem;
-        background-color: var(--dark-4);
+        background-color: var(--color-4);
         font-family: "Cinzel", serif;
         cursor: pointer;
         border-style: none;
