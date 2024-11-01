@@ -1,0 +1,13 @@
+.projects-section {
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.all-projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    /* border: 1px solid red; */
+}

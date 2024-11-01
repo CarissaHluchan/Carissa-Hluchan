@@ -1,0 +1,66 @@
+.name-section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 0;
+    font-weight: 900;
+    font-size: 15vw;
+    text-transform: uppercase;
+    background-color: var(--bg);
+    /* background-color: white;
+    background-color: black; */
+    color: var(--text);
+    /* color: black;
+    color: white; */
+    mix-blend-mode: var(--mix-blend-mode);
+    /* mix-blend-mode: screen;
+    mix-blend-mode: multiply; */
+    font-family: "Cinzel", serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.carissa {
+    position: relative;
+    top: 6vw;
+    left: 0;
+    font-size: 17.4vw;
+}
+
+.hluchan {
+    position: relative;
+    top: 2.4vw;
+    left: 0;
+}
+
+.h1-span {
+    font-size: 5vw;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 2vw;
+}

@@ -1,0 +1,204 @@
+{
+    "about": "I am a front-end developer in React, JavaScript, CSS, and HTML. After a decade as an Ophthalmic Photographer, where I mastered the technical aspects of specialized equipment and microscopes, I realized I was ready for a new challenge. Seeking a career that fosters continual learning and growth, I transitioned into software development, completing an immersive program at Turing School of Software and Design.\n\nDuring this transition, I discovered my passion for building engaging and dynamic user experiences. I thrive in environments that push me to be both persistent and creative, tackling problems from different angles to find effective solutions. Through my work at Turing, I’ve honed my skills in software testing practices such as unit testing and Cypress. I’ve developed a deep appreciation for collaborative problem-solving in group projects. I’m especially passionate about styling and UI design—creating visually compelling, intuitive interfaces that delight users. Whether it’s crafting responsive layouts or exploring innovative CSS techniques, I love using my creativity to bring ideas to life.\n\nWhen I’m not coding, you’ll find me outdoors—hiking, rock climbing, and split boarding. The challenge and creativity I find in outdoor adventures often fuel my problem-solving approach as a developer. Over four years, I had a project where I climbed all 58 peaks in Colorado, over 14,000 ft in elevation. I started small, one mountain at a time, tackling the easier class 2 mountains first and gradually tackling the more difficult summits in class 3 and class 4. After finishing the project, I went back to some of these peaks and tackled them with more skills on class 5 routes, multi-pitched with rock climbing gear. This journey reflects my approach to software development—starting with a solid foundation, learning, growing, and taking on bigger challenges.\n\nLet’s connect! Explore my portfolio and GitHub for more on my projects, and feel free to message me on LinkedIn or Slack (Carissa Hluchan) to discuss potential collaborations or opportunities.",
+    "skills": "",
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Lance Nelson",
+            "title": "Backend Software Engineer",
+            "linkedIn": "https://www.linkedin.com/in/lance-nelson",
+            "testimonial": "During our time together at Turing, Carissa and I had the opportunity to collaborate on a project together during our last inning before graduation and I have nothing but great things to say about my experience with her! She has excellent communication and organization skills, as well as a monumental arsenal of front-end coding knowledge. As someone who hasn't written any Javascript, watching her code and debug while working on our project was mesmerizing. Carissa truly knows her stuff and any team of devs out there would be lucky to have her!"
+        },
+        {
+            "id": 2,
+            "name": "Terra Manning",
+            "title": "Full-Stack Software Engineer",
+            "linkedIn": "https://www.linkedin.com/in/terra-manning",
+            "testimonial": "Carissa is a great person to collaborate with. She is well respected in our cohort and everyone loves working with her. Carissa is dedicated, self-motivated, methodical, and very capable. She is a self starter with stellar technical skills and is a valuable contributor to our projects. I thoroughly enjoy working with her at Turing School of Software and Design."
+        },
+        {
+            "id": 3,
+            "name": "Seth Way",
+            "title": "Software Engineer",
+            "linkedIn": "https://www.linkedin.com/in/sethway",
+            "testimonial": "Carissa is creative, thoughtful, and communicates well and this really stands out in her coding. She writes clean functional code and picks up new concepts with impressive speed. She's be an asset to any team."
+        },
+        {
+            "id": 4,
+            "name": "Zelalem Fitru",
+            "title": "Front End Engineer",
+            "linkedIn": "https://www.linkedin.com/in/zelalemfitru",
+            "testimonial": "Carissa is an amazing student with strong attention to detail, it was great to witness her grow as a Front-End developer."
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Chess with Frien-EMIES",
+            "description": "Chess with Fren-EMIES is designed to cater to casual and competitive players, creating a platform for social interaction through chess. Users have the ability to connect with friends and make new friends in the chess community. It leverages real-time capability, allowing users to engage in matches smoothly while managing their friend lists and tracking their progress.",
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-plain.svg"
+            ],
+            "repo": "https://github.com/CarissaHluchan/chess-with-frien-emies",
+            "live_site": "",
+            "project_notes": [
+                "Successfully coding 15 components in React within the given time frame.",
+                "This was our first project working with a back-end team writing asynchronous functions for 6 GET's, 3 POST's, and 2 DELETE's.",
+                "The effective communication with the backend team, allowed quick problem-solving.",
+                "Connecting to a micor-server to connect our user side with the game side.",
+                "This was our first time writing functions to mount POST and DELETE requests, which proved challenging, but through the debugging process, we were able to complete this successfully."
+            ],
+            "collaborators": [
+                "Zelalem Fitru",
+                "Seth Way",
+                "Gwyneth Patrick",
+                "Robert Phillips",
+                "Lance Nelson",
+                "Austin Kenny",
+                "Jan Connor Lehigh",
+                "Cory Bretsch",
+                "Tylor Nobal",
+                "Evan Davis"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Whisker Watch",
+            "description": "Whisker Watch is a charming web application designed for cat breed enthusiasts with a particular interest in rare and unusual cat breeds. This interactive platform offers a delightful experience for users who want to explore and celebrate these unique feline companions.",
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
+            "repo": "https://github.com/CarissaHluchan/whisker-watch",
+            "live_site": "https://whisker-watch.vercel.app/",
+            "project_notes": [
+                "Testing dynamic elements, such as navigation menus and asynchronously loaded components, presented challenges with visibility and timing in Cypress. I resolved this by breaking up test assertions and using cy.realHover and cy.intercept to handle asynchronous rendering and API calls. I found a dynamic way of handing cat breed cards visibility using forEach in Cypress.",
+                "API Data Handling in Tests: Mocking and intercepting API requests required careful synchronization to ensure the UI was updated correctly during testing. By using Cypress fixtures and ensuring API responses matched expected structures, I stabilized the tests and ensured data was correctly loaded before user interactions."
+            ],
+            "collaborators": null
+        },
+        {
+            "id": 3,
+            "title": "Red Horizon",
+            "description": "Mars exploration app for curious learners to discover images of the surface features of Mars, explore its moons, and images from the Mars rover expeditions.",
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
+            "repo": "https://github.com/CarissaHluchan/red-horizon",
+            "live_site": "https://red-horizon-4zql.vercel.app/",
+            "project_notes": [
+                "This was our first time working with a large-scale API, through the use of PostMan we were able to test various endpoints to get back the data we needed to display images for each of our interactive targets.",
+                "We taught ourselves TypeScript reading through and implementing documentation.",
+                "Learned advanced CSS techniques including hover, transform, and displaying text",
+                "Added accessibility using Wave Chrome extension and Lighthouse to test this.",
+                "Did research and implemented an extension to thoroughly test hover interaction in Cypress"
+            ],
+            "collaborators": [
+                "Charles Banks",
+                "Marshall Hotaling"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Crusty Carrots",
+            "description": "A movie discovery site, allowing users to discover movies based on title and ratings.",
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
+            "repo": "https://github.com/CarissaHluchan/crusty-carrots",
+            "live_site": "https://carissahluchan.github.io/crusty-carrots/",
+            "project_notes": [
+                "We had some major troubles understanding how we should properly conduct 'sad path' testing at first, but through consultation with our peers and teachers, we managed to properly test not only the expected and desired possibilities that could occur with the website, but also scenarios where something goes wrong, giving us a 404 or other error.",
+                "We also had some trouble properly implementing the carrot-based rating at first, displaying scores as images rather than just numerical values. This was eventually solved through filling an array with images, with the number of them 'empty' being determined based on the movie's overall rating.",
+                "Lastly, our general understanding surrounding React application workflow was improved over the course of this project, especially our understanding of how props and data flow between components; there's not really a specific example of how we overcame this difficulty, because the whole project is built on it, and it working is proof we managed to successfully learn the topic!"
+            ],
+            "collaborators": [
+                "Robert Phillips",
+                "Ryan O'Leary"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Overlook Hotel",
+            "description": "A hotel booking tool for hotel customers to search rooms at the Overlook Hotel, manage room bookings and calculate bills.",
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
+            "repo": "https://github.com/CarissaHluchan/overlook-hotel",
+            "live_site": "https://carissahluchan.github.io/overlook-hotel/",
+            "project_notes": [
+                "This was my first solo project addressing accessibility. I used the voice-over tool to test the application manually and applied ARIA elements to achieve this. I further tested accessibility using WAVE and Lighthouse.",
+                "My first solo project creating POST and DELETE API requests. I used a local server to build and test fetch calls then implemented Vercel to host the database to deploy the app.",
+                "As my second solo project in vanilla JS I had to think critically about the functionality and test the site regularly. I’m excited to learn REACT and to apply libraries to handle the more challenging features, like the calendar date selection input field."
+            ],
+            "collaborators": null
+        },
+        {
+            "id": 6,
+            "title": "What's Cookin",
+            "description": "A recipe tracking / meal planning application that allows users to view recipes they want to cook & plan shopping trips around them. Users can view a list of recipes, filter them by name or tag, & choose recipes to cook.",
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
+            "repo": "https://github.com/CarissaHluchan/whats-cookin",
+            "live_site": "https://carissahluchan.github.io/whats-cookin/",
+            "project_notes": [
+                "Our app crashed when conflicting merges did not present themselves as 'merge conflicts.' By visiting our commit history and utilizing a staging branch, we were able to introduce and remove all the appropriate code to successfully complete the merge.",
+                "The recipe cost slider is a complex UI component made of 2 separate slider inputs. In order to make working with it easier, we used closures so that the cost-slider object had access to all the necessary variables."
+            ],
+            "collaborators": [
+                "Seth Way",
+                "Willem Pol",
+                "Marshall Hotaling"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Rock Paper Scissors",
+            "description": "A game to play two versions of Rock, Paper, Scissors, a classic version, and a more difficult version with five fighter choices adding a lizard and alien/UFO.",
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
+            "repo": "https://github.com/CarissaHluchan/rock-paper-scissors",
+            "live_site": "https://carissahluchan.github.io/rock-paper-scissors/",
+            "project_notes": [
+                ".setTimeout(): async functionality. I used setTimeout functions and applied them in JavaScript.",
+                "I tested the games to identify bugs in game play. I had to included a function guard to allow for a click to be in progress."
+            ],
+            "collaborators": null
+        }
+    ]
+}

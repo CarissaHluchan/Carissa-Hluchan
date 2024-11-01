@@ -1,23 +1,90 @@
 :root {
-  --color-1: #09090D;
-  --color-2: #617C8C;
-  --color-3: #B4CBD9;
-  --color-4: #A67C6D ;
-  --color-5: #59362E;
-  --color-6: black;
-  --color-7: white;
+  --color-1: #000000;
+  --color-2: #ffffff;
+
+  --text: #000000;
+  --text-dark: #ffffff;
+
+/* when we call these vars in other css files */
+/* we only will call the base version */
+  --bg: #ffffff;
+  --bg-dark: #000000;
+
+  --border: #000000;
+  --border-dark: #ffffff;
+
+    /*---// Light Mode //---*/
+    --color-3: #f6f6f6; /* project*/
+    --color-4: #59464d; /* h3 */
+    --color-5: #d2d8cb; /* project card*/
+    --color-6: #385b0a; /* h2 green */
+    --color-7: #d1dadf; /* bg of nav links*/
+    --accent: #385b0a;
+
+  /*----// Dark Mode //----*/
+  --color-dark-3: #2d3230; /*project*/
+  /* --dark-2: #385b0a; */
+  --color-dark-4: #dad4ef; /* h3 */
+  --color-dark-5: #2c3d36;  /* project card*/
+  --color-dark-6: #cad6bb; /* h2 green */
+  --color-dark-7: #161614;/* bg of nav links*/
+  --accent-dark: #2c3d36;
+
+  --mix-blend-mode: screen;
+  --mix-blend-mode-dark: multiply;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+/* this is where we set the vars to dark version (in dark mode) */
 }
 
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  background-color: var(--color-3);
+  font-size: 1rem;
+
+  .toggle-svg {
+    color: var(--text);
+  }
+
+  background-color: var(--color-7);
+  color: var(--text);
+
+  .dark {
+    --text: var(--text-dark);
+    --bg: var(--bg-dark);
+    --border: var(--border-dark);
+
+    --color-3: var(--color-dark-3);
+    --color-4: var(--color-dark-4);
+    --color-5: var(--color-dark-5);
+    --color-6: var(--color-dark-6);
+    --color-7: var(--color-dark-7);
+    --accent: var(--accent-dark);
+
+    --mix-blend-mode: var(--mix-blend-mode-dark);
+    background-color: var(--color-7);
+    color: var(--text);
+  }
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-size: 1.6rem;
+  color: var(--color-6);
 }
 
 h3, h4, h5, h6 {
-  color: var(--color-5);
-  font-size: 1.6rem;
-  margin: 0;
+  color: var(--color-4);
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
 }

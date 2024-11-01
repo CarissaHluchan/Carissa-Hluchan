@@ -1,0 +1,32 @@
+footer {
+    height: 21vw;
+    width: 100vw;
+    margin: 0;
+    font-family: "Cinzel", serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    
+    p {
+        color: var(--text);
+        font-size: 1rem;
+    }
+    /* border: 2px solid green; */
+}
+
+.footer-link-wrapper{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.footer-link {
+    width: 2rem;
+    height: auto;
+    color: var(--color-2);
+}

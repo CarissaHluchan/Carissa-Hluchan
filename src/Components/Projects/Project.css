@@ -1,0 +1,73 @@
+.project-section {
+    width: 75%;
+    height: Auto;
+    position: absolute;
+    /* position: fixed; */
+    top: 3vw;
+    left: 7vw;
+    background-color: var(--color-3);
+    padding: 5vw;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 1rem;
+
+    .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h2, h3, h4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    h3, h4 {
+        color: var(--color-4);
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    .team-of {
+        margin-bottom: 0.3rem;
+    }
+
+    img {
+        position: relative;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+        align-items: center;
+    }
+
+   .project-link {
+        font-family: "Cinzel", serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--bg);
+        background-color: var(--color-6);
+        padding: 0.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .project-link-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1.5rem;
+        /* border: 1px solid red; */
+    }
+
+    button {
+        color: var(--bg);
+        font-weight: 700;
+        padding: 0.5rem;
+        background-color: var(--color-4);
+        font-family: "Cinzel", serif;
+        cursor: pointer;
+        border-style: none;
+        border-radius: 5px;
+    }
+}
