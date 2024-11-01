@@ -27,7 +27,7 @@ const Project = forwardRef(({ id, title, description, collaborators, projectNote
   )) : null;
 
   return (
-    <section id={id} className='project-section' ref={ref}> {/* Attach the ref here */}
+    <section id={id} className='project-section' ref={ref}> 
       <header className='project-header'>
         <h2>{title}</h2>
         <button onClick={handleClickToClose} className='close-button'>Close</button>

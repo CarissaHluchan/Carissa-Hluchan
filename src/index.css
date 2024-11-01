@@ -1,11 +1,4 @@
 :root {
-  /* --color-1: #09090D;
-  --color-2: #617C8C;
-  --color-3: #B4CBD9;
-  --color-4: #A67C6D ;
-  --color-5: #59362E;
-  --color-6: black;
-  --color-7: white; */
   --color-1: #000000;
   --color-2: #ffffff;
   /*----// Dark Mode //----*/
@@ -34,25 +27,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
-  /* margin-left: 5vw; */
-  /* margin-right: 5vw; */
+  font-size: 1rem;
   background-color: var(--dark-1);
   color: var(--color-2)
 }
 
 h2 {
-  /* color: var(--color-5); */
   font-family: "Cinzel", serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: var(--dark-3);
-  /* margin: 0; */
 }
 
 h3, h4, h5, h6 {
   color: var(--dark-4);
   font-family: "Cinzel", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 a {

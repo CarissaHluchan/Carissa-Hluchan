@@ -26,7 +26,6 @@ function Projects() {
     <section className='projects-section'>
       <h2>Projects:</h2>
       <div className='all-projects-wrapper'>{projectCards}</div>
-
     </section>
   )
 }

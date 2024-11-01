@@ -24,7 +24,7 @@
 .skills-title {
     color: var(--dark-4);
     font-family: "Cinzel", serif;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     width: 25vw;
     font-weight: 700;
     display: flex;

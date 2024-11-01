@@ -2,7 +2,8 @@
     width: 75%;
     height: Auto;
     position: absolute;
-    top: 83vw;
+    /* position: fixed; */
+    top: 3vw;
     left: 7vw;
     background-color: var(--dark-6);
     padding: 5vw;
