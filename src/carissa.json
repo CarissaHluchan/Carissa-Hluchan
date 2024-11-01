@@ -6,7 +6,16 @@
             "id": 1,
             "title": "Chess with Frien-EMIES",
             "description": "Chess with Fren-EMIES is designed to cater to casual and competitive players, creating a platform for social interaction through chess. Users have the ability to connect with friends and make new friends in the chess community. It leverages real-time capability, allowing users to engage in matches smoothly while managing their friend lists and tracking their progress.",
-            "technologies": ["React", "Router", "VITE.js", "Cypress", "CSS3"],
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-plain.svg"
+            ],
             "repo": "https://github.com/CarissaHluchan/chess-with-frien-emies",
             "live_site": "",
             "project_notes": [
@@ -33,7 +42,14 @@
             "id": 2,
             "title": "Whisker Watch",
             "description": "Whisker Watch is a charming web application designed for cat breed enthusiasts with a particular interest in rare and unusual cat breeds. This interactive platform offers a delightful experience for users who want to explore and celebrate these unique feline companions.",
-            "technologies": ["React", "Router", "Cypress", "CSS3"],
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
             "repo": "https://github.com/CarissaHluchan/whisker-watch",
             "live_site": "https://whisker-watch.vercel.app/",
             "project_notes": [
@@ -46,10 +62,18 @@
             "id": 3,
             "title": "Red Horizon",
             "description": "Mars exploration app for curious learners to discover images of the surface features of Mars, explore its moons, and images from the Mars rover expeditions.",
-            "technologies": ["React", "Router", "VITE.js", "TypeScript", "Cypress", "CSS3"],
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
             "repo": "https://github.com/CarissaHluchan/red-horizon",
             "live_site": "https://red-horizon-4zql.vercel.app/",
-            "project-notes": [
+            "project_notes": [
                 "This was our first time working with a large-scale API, through the use of PostMan we were able to test various endpoints to get back the data we needed to display images for each of our interactive targets.",
                 "We taught ourselves TypeScript reading through and implementing documentation.",
                 "Learned advanced CSS techniques including hover, transform, and displaying text",
@@ -65,7 +89,14 @@
             "id": 4,
             "title": "Crusty Carrots",
             "description": "A movie discovery site, allowing users to discover movies based on title and ratings.",
-            "technologies": ["React", "Router", "Cypress", "CSS3"],
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
             "repo": "https://github.com/CarissaHluchan/crusty-carrots",
             "live_site": "https://carissahluchan.github.io/crusty-carrots/",
             "project_notes": [
@@ -82,10 +113,17 @@
             "id": 5,
             "title": "Overlook Hotel",
             "description": "A hotel booking tool for hotel customers to search rooms at the Overlook Hotel, manage room bookings and calculate bills.",
-            "technologies": ["Vanilla JavaScript", "HTML5", "CSS3", "Mocha", "Chai"],
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
             "repo": "https://github.com/CarissaHluchan/overlook-hotel",
             "live_site": "https://carissahluchan.github.io/overlook-hotel/",
-            "project-notes": [
+            "project_notes": [
                 "This was my first solo project addressing accessibility. I used the voice-over tool to test the application manually and applied ARIA elements to achieve this. I further tested accessibility using WAVE and Lighthouse.",
                 "My first solo project creating POST and DELETE API requests. I used a local server to build and test fetch calls then implemented Vercel to host the database to deploy the app.",
                 "As my second solo project in vanilla JS I had to think critically about the functionality and test the site regularly. I’m excited to learn REACT and to apply libraries to handle the more challenging features, like the calendar date selection input field."
@@ -96,7 +134,12 @@
             "id": 6,
             "title": "What's Cookin",
             "description": "A recipe tracking / meal planning application that allows users to view recipes they want to cook & plan shopping trips around them. Users can view a list of recipes, filter them by name or tag, & choose recipes to cook.",
-            "technologies": ["Vanilla JavaScript", "HTML5", "CSS3", "Mocha", "Chai"],
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
             "repo": "https://github.com/CarissaHluchan/whats-cookin",
             "live_site": "https://carissahluchan.github.io/whats-cookin/",
             "project_notes": [
@@ -104,16 +147,21 @@
                 "The recipe cost slider is a complex UI component made of 2 separate slider inputs. In order to make working with it easier, we used closures so that the cost-slider object had access to all the necessary variables."
             ],
             "collaborators": [
-              "Seth Way",
-              "Willem Pol",
-              "Marshall Hotaling"
+                "Seth Way",
+                "Willem Pol",
+                "Marshall Hotaling"
             ]
         },
         {
             "id": 7,
             "title": "Rock Paper Scissors",
             "description": "A game to play two versions of Rock, Paper, Scissors, a classic version, and a more difficult version with five fighter choices adding a lizard and alien/UFO.",
-            "technologies": ["Vanilla JavaScript", "HTML5", "CSS3"],
+            "technologies": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+            ],
             "repo": "https://github.com/CarissaHluchan/rock-paper-scissors",
             "live_site": "https://carissahluchan.github.io/rock-paper-scissors/",
             "project_notes": [
