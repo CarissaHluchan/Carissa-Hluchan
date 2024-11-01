@@ -1,8 +1,6 @@
 import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-// import gitHubIcon from '../../assets/github.svg';
-// import linkedInIcon from '../../assets/linkedin.png';
 import phoneIcon from '../../assets/phone_icon.png';
 import emailIcon from '../../assets/gmail.svg';
 import resumeIcon from '../../assets/resume-icon.png';
@@ -15,8 +13,8 @@ function Contact() {
   const handlePhoneClick = () => {
     navigator.clipboard.writeText("(702) 738-8031")
     .then(() => {
-      setShowPopup(true); // Show popup
-      setTimeout(() => setShowPopup(false), 2000); // Hide after 2 seconds
+      setShowPopup(true); 
+      setTimeout(() => setShowPopup(false), 2000); 
     })
     .catch(err => console.error("Failed to copy text: ", err));
 };

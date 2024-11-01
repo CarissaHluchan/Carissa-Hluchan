@@ -11,7 +11,7 @@
 } */
 
 nav {
-    background-color: var(--dark-7);
+    background-color: var(--dark-5);
     width: 100%;
     display: flex;
     justify-content: space-evenly;
