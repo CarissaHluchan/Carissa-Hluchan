@@ -28,9 +28,11 @@ A portfolio page for Web Developer Carissa Hluchan
 ### Design:
 [Design Board](https://www.canva.com/design/DAGS0pkrPz4/GNwzjOZb53mNP0myMhqiAA/edit)
 
+<img width="514" alt="designBoard" src="https://github.com/user-attachments/assets/faf11724-bf3c-48e6-93c6-ff7fd62d2086">
+
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-![chrome-capture-2024-10-15](https://github.com/user-attachments/assets/7c4327cb-29e3-4d42-ba50-b9f528f080c9)
+![chrome-capture-2024-11-2](https://github.com/user-attachments/assets/4e6fba54-db89-43c8-89ac-b1e0911247bc)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
@@ -39,10 +41,17 @@ Updated verson now contains Router with a Nav bar and toggle for light and dark 
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
-This application was built by:[Carissa Hluchan](https://github.com/CarissaHluchan),
+This application was built by:[Carissa Hluchan](https://github.com/CarissaHluchan)
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
+- Build a JSON data set
+- Present my skills and talents in Web Development
+- Practice React and Router code
+- work with some new libaries that I have not worked with before
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+- This was my first time building my own json file. I will be coming back to this project to learn Express BE fundamentals.
+- I found it particularly challenging to represent myself in one particular theme.
+- I worked with an image carousel libary in the about me section, which I read through some documentation to figure out how to customize it.
