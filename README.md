@@ -48,7 +48,7 @@ This application was built by:[Carissa Hluchan](https://github.com/CarissaHlucha
 - Build a JSON data set
 - Present my skills and talents in Web Development
 - Practice React and Router code
-- work with some new libaries that I have not worked with before
+- Work with some new libaries that I have not worked with before
 - Learn how to apply a light mode and dark mode toggle switch
 
 ### Wins + Challenges:
