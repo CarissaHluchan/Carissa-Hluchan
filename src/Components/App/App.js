@@ -17,14 +17,14 @@ function App() {
   const root = document.getElementById('root');
 
   if (!isLightMode) {
-    root.classList.add('dark')
+    root.classList.add('dark');
   } else  {
-    root.classList.remove('dark')
-  }
+    root.classList.remove('dark');
+  };
 
   const handleClick = () => {
     setLightMode(prev => !prev);
-  }
+  };
 
   return (
       <div className="App">

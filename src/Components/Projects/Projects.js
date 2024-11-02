@@ -1,5 +1,3 @@
-import React from 'react';
-
 import projectsData from '../../carissa.json';
 import ProjectCard from './ProjectCard';
 import './Projects.css';

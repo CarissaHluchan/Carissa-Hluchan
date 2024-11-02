@@ -1,4 +1,4 @@
-import { React, forwardRef } from 'react';
+import { forwardRef } from 'react';
 
 import chessGif from '../../assets/gifs/chess.gif';
 import whiskerGif from '../../assets/gifs/whisker-watch.gif';
@@ -27,17 +27,19 @@ const Project = forwardRef(({ id, title, description, collaborators, projectNote
   )) : null;
 
   return (
-    <section id={id} className='project-section' ref={ref}> 
+    <section id={id} className='project-section' ref={ref}>
       <header className='project-header'>
         <h2>{title}</h2>
         <button onClick={handleClickToClose} className='close-button'>Close</button>
       </header>
       <p>{description}</p>
-      <img src={gifs[id]} alt={`${title} preview`} />
+      <div className='gif-wrapper'>
+        <img src={gifs[id]} alt={`${title} preview`} />
+      </div>
       {collaborators && collaborators.length > 0 ? (
         <>
           <h3>Co-Collaborators:</h3>
-          <div className='team-of'>Team of - {collaborators.length + 1}</div>
+          <p className='team-of'>Team of - {collaborators.length + 1}</p>
           <div>{collaborators.join(', ')}</div>
         </>
       ) : (

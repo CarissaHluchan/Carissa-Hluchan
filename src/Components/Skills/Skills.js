@@ -1,5 +1,5 @@
 import React from 'react';
-import { RxAccessibility } from "react-icons/rx";
+import { FaUniversalAccess } from "react-icons/fa6";
 import { HiSpeakerWave } from "react-icons/hi2";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { IoIosContrast } from "react-icons/io";
@@ -52,6 +52,7 @@ function Skills({ isLightMode }) {
         </div>
       </div>
 
+
       <div className='skills-wrapper'>
         <div className='skills-title'>Libraries:</div>
 
@@ -62,12 +63,12 @@ function Skills({ isLightMode }) {
           </div>
 
           <div className='skill-wrapper'>
-            <img className='dark-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
+            <img className='icon-light-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
             <div>React-Router</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={momentIcon} />
+            <img src={momentIcon} className='icon-light-bg'/>
             <div>Moment</div>
           </div>
         </div>
@@ -84,8 +85,8 @@ function Skills({ isLightMode }) {
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" />
-            <img src="https://profilinator.rishav.dev/skills-assets/chai.png" />
+            <img className='icon-light-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" />
+            <img className='icon-light-bg' src="https://profilinator.rishav.dev/skills-assets/chai.png" />
             <div>Unit Testing (Mocha, Chai),</div>
           </div>
 
@@ -107,19 +108,18 @@ function Skills({ isLightMode }) {
             <div>GitHub, GitHub project board, GitHub issues</div>
           </div>
 
-
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
+            <img className='icon-dark-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
             <div>GithHub Actions</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
+            <img className='icon-dark-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
             <div>npm</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
+            <img className='icon-dark-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
             <div>Vite.js</div>
           </div>
         </div>
@@ -196,13 +196,12 @@ function Skills({ isLightMode }) {
       </div>
 
 
-
       <div className='skills-wrapper'>
         <h9 className='skills-title'>Accessibility:</h9>
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
-            <RxAccessibility className='img' />
+            <FaUniversalAccess className='acc-icon' />
             <div>Meet WCAG standards by implementing ARIA landmarks</div>
           </div>
 

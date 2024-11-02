@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -13,16 +12,16 @@ import './About.css';
 
 const images = [
   carissa, carissa1, carissa3, carissa4, carissa5, carissa7
-]
+];
 
 function About() {
 
-  const aboutMe = aboutData.about
+  const aboutMe = aboutData.about;
   const paragraphs = aboutMe.map((paragraph, index) => {
     return (
       <p key={index}>{paragraph[`paragraph_${index + 1}`]}</p>
     )
-  })
+  });
 
   return (
     <section className='about-section'>

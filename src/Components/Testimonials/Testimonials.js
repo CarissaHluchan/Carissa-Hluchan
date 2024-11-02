@@ -1,10 +1,9 @@
-import React from 'react';
-
 import testimonialData from '../../carissa.json';
 import './Testimonials.css';
 
 function Testimonials() {
-    const testimonials = testimonialData.testimonials
+
+    const testimonials = testimonialData.testimonials;
 
     const allTestimonials = testimonials.map(testimonial => {
         return (
@@ -23,4 +22,4 @@ function Testimonials() {
     )
 }
 
-export default Testimonials
+export default Testimonials;

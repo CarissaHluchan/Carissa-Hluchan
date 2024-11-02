@@ -12,24 +12,28 @@
         font-size: 1.6rem;
     }
 
+    .acc-icon {
+        font-size: 3rem;
+        margin: 1vw;
+        margin-right: 2vw;
+        border-radius: 2px;
+    }
 }
 
 .skills-wrapper {
-    margin-top: 2vw;
+    margin-top: 5vw;
     display: flex;
     justify-content: flex-start;
-    /* border: 1px solid red; */
 }
 
 .skills-title {
-    color: var(--color-4);
-    font-family: "Cinzel", serif;
-    width: 25vw;
-    font-weight: 700;
+    width: 30vw;
     display: flex;
+    color: var(--color-4);
     justify-content: flex-end;
-    /* border: 1px solid yellow; */
-    /* color: var(--color-4) */
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .skill-wrapper {
@@ -39,7 +43,6 @@
 
 .skills-list {
     margin-left: 5vw;
-    /* border: 1px solid green; */
 }
 
 .icon-dark-bg {
