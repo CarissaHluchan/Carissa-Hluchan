@@ -36,7 +36,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
 }
 
 .content-wrapper {
@@ -45,7 +45,7 @@
 
 .contact-icon {
     width: 2rem;
-    padding: 2vw;
+    padding: 0.6rem;
 }
 
 .resume-icon {
@@ -88,7 +88,6 @@
     z-index: 10;
 }
 
-/* Animation for fading in and out */
 @keyframes fadeInOut {
     0% {
         opacity: 0;
@@ -102,4 +101,15 @@
     100% {
         opacity: 0;
     }
+}
+.mountains-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.contact-mountains {
+    width: min(75vw, 25rem);
+    margin-right: 8vw;
 }

@@ -16,6 +16,9 @@ import inDesignIcon from '../../assets/indesign.png';
 import colorIcon from '../../assets/color-wheel.svg';
 import responsiveIcon from '../../assets/responsive-design.svg';
 import waveIcon from '../../assets/wave.jpg';
+
+import leaves from '../../assets/leaves.png';
+import leavesDark from '../../assets/leaves-dark.png';
 import './Skills.css'
 
 function Skills({ isLightMode }) {
@@ -24,29 +27,31 @@ function Skills({ isLightMode }) {
 
   return (
     <section className='skills-section'>
-      <h2>Skills:</h2>
+        <h2>Skills:</h2>
+        <img src={isLightMode ? leaves : leavesDark} alt="Decorative leaves" className="leaves" />
+
       <div className='skills-wrapper'>
         <div className='skills-title'>Languages:</div>
 
         <div className='skills-list'>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
             <div className='skill-item'>JavaScript</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
             <div className='skill-item'>TypeScript</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
             <div>HTML</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
             <div>CSS</div>
           </div>
         </div>
@@ -58,17 +63,17 @@ function Skills({ isLightMode }) {
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
-            <img className='icon-dark-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+            <img className='icon-dark-bg skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
             <div>React</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img className='icon-light-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
+            <img className='icon-light-bg skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
             <div>React-Router</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={momentIcon} className='icon-light-bg'/>
+            <img src={momentIcon} className='icon-light-bg skill-icon' />
             <div>Moment</div>
           </div>
         </div>
@@ -80,18 +85,18 @@ function Skills({ isLightMode }) {
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
-            <img src={tddIcon} />
+            <img src={tddIcon} className="skill-icon" />
             <div>Test-Driven Development (TDD)</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img className='icon-light-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" />
-            <img className='icon-light-bg' src="https://profilinator.rishav.dev/skills-assets/chai.png" />
+            <img className='icon-light-bg skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" />
+            <img className='icon-light-bg skill-icon' src="https://profilinator.rishav.dev/skills-assets/chai.png" />
             <div>Unit Testing (Mocha, Chai),</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img className='icon-light-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" />
+            <img className='icon-light-bg skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" />
             <div className='dark-icon'>Cypress</div>
           </div>
         </div>
@@ -104,22 +109,22 @@ function Skills({ isLightMode }) {
         <div className='skills-list'>
 
           <div className='skill-wrapper'>
-            <img src={gitHubIcon} />
+            <img src={gitHubIcon} className="skill-icon" />
             <div>GitHub, GitHub project board, GitHub issues</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img className='icon-dark-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
+            <img className='icon-dark-bg skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
             <div>GithHub Actions</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img className='icon-dark-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
+            <img className='icon-dark-bg skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
             <div>npm</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img className='icon-dark-bg' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
+            <img className='icon-dark-bg skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
             <div>Vite.js</div>
           </div>
         </div>
@@ -132,12 +137,12 @@ function Skills({ isLightMode }) {
         <div className='skills-list'>
 
           <div className='skill-wrapper'>
-            <img src={gitHubIcon} />
+            <img src={gitHubIcon} className="skill-icon" />
             <div>GitHub Pages</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={vercelIcon} className='icon-light-bg'/>
+            <img src={vercelIcon} className='icon-light-bg skill-icon' />
             <div>Vercel</div>
           </div>
         </div>
@@ -149,47 +154,47 @@ function Skills({ isLightMode }) {
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
-            <img src={responsiveIcon} />
+            <img src={responsiveIcon} className="skill-icon" />
             <div>Responsive Design</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg" />
+            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg" />
             <div>Adobe Illustrator</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={inDesignIcon} alt="Lightroom" />
+            <img src={inDesignIcon} className="skill-icon" />
             <div>Adobe InDesign</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
+            <img className="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
             <div>Adobe Photoshop</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={lightroomIcon} />
+            <img src={lightroomIcon} className="skill-icon" />
             <div>Adobe lightroom</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={colorIcon} />
+            <img src={colorIcon} className="skill-icon" />
             <div>Color Theory</div>
           </div>
 
           <div className='skill-wrapper'>
-            <SiMaterialdesignicons className='img' />
+            <SiMaterialdesignicons className='skill-icon' />
             <div>UI/UX</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={miroIcon} />
+            <img src={miroIcon} className='skill-icon' />
             <div>Miro</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={canvaIcon} />
+            <img src={canvaIcon} className='skill-icon' />
             <div>Canva</div>
           </div>
         </div>
@@ -201,27 +206,27 @@ function Skills({ isLightMode }) {
 
         <div className='skills-list'>
           <div className='skill-wrapper'>
-            <FaUniversalAccess className='acc-icon' />
+            <FaUniversalAccess className='skill-icon' />
             <div>Meet WCAG standards by implementing ARIA landmarks</div>
           </div>
 
           <div className='skill-wrapper'>
-            <HiSpeakerWave className='img' />
+            <HiSpeakerWave className='skill-icon' />
             <div>Testing with screen readers</div>
           </div>
 
           <div className='skill-wrapper'>
-            <IoIosContrast className='img' />
+            <IoIosContrast className='skill-icon' />
             <div>Creating visual contrast</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" />
+            <img className='skill-icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" />
             <div>Chrome Dev Tools - Lighthouse</div>
           </div>
 
           <div className='skill-wrapper'>
-            <img src={waveIcon} />
+            <img src={waveIcon} className='skill-icon' />
             <div>Wave</div>
           </div>
         </div>

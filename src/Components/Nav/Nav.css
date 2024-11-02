@@ -31,3 +31,11 @@ nav {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+.toggle-moon {
+    font-size: 1.1rem;
+}
+
+.toggle-sun {
+    font-size: 1.4rem;
+}

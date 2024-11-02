@@ -14,7 +14,7 @@ function Nav({ isLightMode, handleClick }) {
       <Link to='/projects' className='nav-link'>Projects</Link>
       <Link to='/testimonials' className='nav-link'>Testimonials</Link>
       <button id='dark-mode-toggle' onClick={handleClick}>
-        {isLightMode ? <FaSun /> : <FaMoon />}
+        {isLightMode ? <FaSun className='toggle-sun'/> : <FaMoon className='toggle-moon'/>}
       </button>
     </nav>
   )

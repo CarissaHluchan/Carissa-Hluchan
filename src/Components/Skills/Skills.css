@@ -3,25 +3,18 @@
     margin-left: 5vw;
     margin-right: 5vw;
 
-    img, .img {
+    .skill-icon {
         width: 1.5rem;
         height: 1.5rem;
-        margin: 1vw;
-        margin-right: 2vw;
+        margin: 0.3rem;
+        margin-right: 0.3rem;
         border-radius: 2px;
         font-size: 1.6rem;
-    }
-
-    .acc-icon {
-        font-size: 3rem;
-        margin: 1vw;
-        margin-right: 2vw;
-        border-radius: 2px;
     }
 }
 
 .skills-wrapper {
-    margin-top: 5vw;
+    margin-top: 2rem;
     display: flex;
     justify-content: flex-start;
 }

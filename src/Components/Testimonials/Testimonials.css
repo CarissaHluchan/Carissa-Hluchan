@@ -1,8 +1,18 @@
 .testimonial-section {
+    /* width: min(100%, 50rem); */
     display: flex;
     flex-direction: column;
-    margin: 5vw;
+    align-items: center;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
+
+.testimonials-wrapper {
+    margin-top: 2rem;
+    width: min(100%, 50rem);
+}
+
 .testimonial-wrapper {
     display: flex;
     flex-direction: column;

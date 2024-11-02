@@ -6,9 +6,15 @@ import emailIcon from '../../assets/gmail.svg';
 import resumeIcon from '../../assets/resume-icon.png';
 import resume from '../../assets/Carissa_Hluchan_Resume.pdf';
 import slackIcon from '../../assets/slack.png';
+
+import leaves from '../../assets/leaves.png';
+import leavesDark from '../../assets/leaves-dark.png';
+import mountains from '../../assets/mountains.png';
+import mountainsDark from '../../assets/mountains-dark.png';
 import './Contact.css';
 
-function Contact() {
+function Contact({ isLightMode }) {
+
   const [showPhonePopup, setShowPhonePopup] = useState(false);
 
   const handlePhoneClick = () => {
@@ -23,7 +29,7 @@ function Contact() {
   return (
     <section className='contact-section'>
       <h2>Contact:</h2>
-
+      <img src={isLightMode ? leaves : leavesDark} alt="Decorative leaves" className="leaves" />
       <div className='contact-wrapper'>
         <h3>Email:</h3>
         <div className='content-wrapper'>
@@ -61,6 +67,10 @@ function Contact() {
           </Link>
           <div className='contact-content'>Click to download</div>
         </div>
+      </div>
+
+      <div className='mountains-wrapper'>
+        <img src={isLightMode ? mountains : mountainsDark} alt="Decorative Mountains" className="contact-mountains" />
       </div>
 
     </section >

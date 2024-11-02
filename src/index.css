@@ -75,6 +75,7 @@ h2 {
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.8rem;
   color: var(--color-6);
+  margin-bottom: 0;
 }
 
 h3,
@@ -89,4 +90,8 @@ h6 {
 a {
   text-decoration: none;
   color: var(--text);
+}
+
+.leaves {
+  width: 7rem;
 }

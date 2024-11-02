@@ -1,9 +1,9 @@
 .project-section {
-    width: 83%;
+    width: min(90%, 50rem);
     height: Auto;
     position: absolute;
     top: 0vw;
-    left: 2vw;
+    left: 0;
     background-color: var(--color-3);
     padding: 5vw;
     border: 1px solid var(--border);
