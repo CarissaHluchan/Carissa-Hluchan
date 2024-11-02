@@ -5,29 +5,37 @@
   --text: #000000;
   --text-dark: #ffffff;
 
-/* when we call these vars in other css files */
-/* we only will call the base version */
   --bg: #ffffff;
   --bg-dark: #000000;
 
   --border: #000000;
   --border-dark: #ffffff;
 
-    /*---// Light Mode //---*/
-    --color-3: #f6f6f6; /* project*/
-    --color-4: #59464d; /* h3 */
-    --color-5: #d2d8cb; /* project card*/
-    --color-6: #385b0a; /* h2 green */
-    --color-7: #d1dadf; /* bg of nav links*/
-    --accent: #385b0a;
+  /*---// Light Mode //---*/
+  --color-3: #f6f6f6;
+  /* project*/
+  --color-4: #59464d;
+  /* h3 */
+  --color-5: #d2d8cb;
+  /* project card*/
+  --color-6: #385b0a;
+  /* h2 green */
+  --color-7: #d1dadf;
+  /* bg of nav links*/
+  --accent: #385b0a;
 
   /*----// Dark Mode //----*/
-  --color-dark-3: #2d3230; /*project*/
+  --color-dark-3: #2d3230;
+  /*project*/
   /* --dark-2: #385b0a; */
-  --color-dark-4: #dad4ef; /* h3 */
-  --color-dark-5: #2c3d36;  /* project card*/
-  --color-dark-6: #cad6bb; /* h2 green */
-  --color-dark-7: #161614;/* bg of nav links*/
+  --color-dark-4: #dad4ef;
+  /* h3 */
+  --color-dark-5: #2c3d36;
+  /* project card*/
+  --color-dark-6: #cad6bb;
+  /* h2 green */
+  --color-dark-7: #161614;
+  /* bg of nav links*/
   --accent-dark: #2c3d36;
 
   --mix-blend-mode: screen;
@@ -37,7 +45,6 @@
 #root {
   margin: 0;
   padding: 0;
-/* this is where we set the vars to dark version (in dark mode) */
 }
 
 body {
@@ -78,7 +85,10 @@ h2 {
   color: var(--color-6);
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-4);
   font-family: "Cinzel", serif;
   font-size: 1.2rem;
