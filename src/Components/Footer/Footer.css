@@ -11,7 +11,7 @@ footer {
     margin-top: 3vw;
     
     p {
-        color: var(--text);
+        color: var(--footer);
         font-size: 1rem;
         font-weight: 600;
     }
@@ -27,5 +27,5 @@ footer {
 .footer-link {
     width: 2rem;
     height: auto;
-    color: var(--color-2);
+    color: var(--footer);
 }
