@@ -1,11 +1,15 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
-import gitHubIcon from '../../assets/github.svg';
-import linkedInIcon from '../../assets/ilinkedin.svg';
+import gitHubDark from '../../assets/github-dark.svg';
+import gitHubLight from '../../assets/github-light.svg';
+import linkedInDark from '../../assets/linkedin-dark.svg';
+import linkedInLight from '../../assets/linkedin-light.svg';
 import './Footer.css';
 
-function Footer() {
+function Footer({ isLightMode }) {
+
+  const gitHubIcon = isLightMode ? gitHubLight : gitHubDark;
+  const linkedInIcon = isLightMode ? linkedInLight : linkedInDark;
 
   return (
     <footer>
@@ -17,7 +21,7 @@ function Footer() {
           <img src={linkedInIcon} className='footer-link' />
         </Link>
       </div>
-      <p>Thank you for checking out my site!</p>
+      <p>Thank you for checking out my site</p>
     </footer>
   )
 }

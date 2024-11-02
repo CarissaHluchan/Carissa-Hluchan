@@ -1,7 +1,7 @@
-import { React, useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 import Project from './Project';
-import './ProjectCard.css'
+import './ProjectCard.css';
 
 function ProjectCard({ id, title, description, technologies, collaborators, projectNotes, repo, liveSite }) {
     

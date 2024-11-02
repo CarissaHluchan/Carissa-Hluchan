@@ -5,7 +5,9 @@
     margin-left: 5vw;
     margin-right: 5vw;
 
-    h3, h4, h5 {
+    h3,
+    h4,
+    h5 {
         width: 25vw;
         flex-basis: 40%;
         display: flex;
@@ -13,37 +15,56 @@
         text-align: right;
         /* border: 1px solid yellow; */
     }
+
+    .contact-content {
+        color: var(--text);
+    }
 }
 
 
-.contact-content {
-    color: var(--text);
+/*----// All  //----*/
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/*----// Email //----*/
-.email-icon {
-    height: 3rem;
-    padding: 1vw;
+.content-wrapper,
+.resume-content-wrapper {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-left: 5vw; */
 }
 
-
-/*----// Phone //----*/
-.phone-wrapper {
-    position: relative;
+.content-wrapper {
+    padding-left: 0.1rem;
 }
 
-.phone-icon {
-    height: 3rem;
-    padding: 1vw;
+.contact-icon {
+    width: 2rem;
+    padding: 0.6rem;
 }
 
-.popup {
+.resume-icon {
+    width: 3.5rem
+}
+
+.contact-icon,
+.resume-icon {
+    cursor: pointer;
+}
+
+/*----// Phone/Slack //----*/
+.popup-phone {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
     padding: 0.5rem 1rem;
-    background-color: var(--color-5);
+    background-color: var(--accent);
     color: var(--color-2);
     font-size: 0.9rem;
     border-radius: 5px;
@@ -52,52 +73,43 @@
     z-index: 10;
 }
 
+.popup-slack {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    padding: 0.5rem 1rem;
+    background-color: var(--accent);
+    color: var(--color-2);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out forwards;
+    z-index: 10;
+}
 
-/* Animation for fading in and out */
 @keyframes fadeInOut {
-    0% { opacity: 0; }
-    10%, 90% { opacity: 1; }
-    100% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+
+    10%,
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
-
-/*----// Resume //----*/
-.resume-icon {
-    width: 4rem
-}
-
-/*----// All wrappers //----*/
-
-.email-wrapper,
-.phone-wrapper,
-.resume-wrapper {
+.mountains-wrapper {
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 4rem;
 }
 
-.email-content-wrapper,
-.phone-content-wrapper,
-.resume-content-wrapper {
-    flex-basis: 60%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.email-content-wrapper,
-.phone-content-wrapper {
-    padding-left: 0.1rem;
-}
-
-.email-content-wrapper,
-.phone-content-wrapper, 
-.resume-content-wrapper {
-    margin-left: 5vw;
-}
-
-.contact-icon,
-.phone-icon,
-.resume-icon {
-    cursor: pointer;
+.contact-mountains {
+    width: min(75vw, 25rem);
+    margin-right: 8vw;
 }

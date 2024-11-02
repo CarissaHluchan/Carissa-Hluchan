@@ -1,10 +1,12 @@
-import React from 'react';
-
 import testimonialData from '../../carissa.json';
+
+import leaves from '../../assets/leaves.png';
+import leavesDark from '../../assets/leaves-dark.png';
 import './Testimonials.css';
 
-function Testimonials() {
-    const testimonials = testimonialData.testimonials
+function Testimonials({isLightMode}) {
+
+    const testimonials = testimonialData.testimonials;
 
     const allTestimonials = testimonials.map(testimonial => {
         return (
@@ -19,8 +21,14 @@ function Testimonials() {
     })
 
     return (
-        <section className='testimonial-section'>{allTestimonials}</section>
+        <section className='testimonial-section'>
+            <h2>Testimonials:</h2>
+            <img src={isLightMode ? leaves : leavesDark} alt="Decorative leaves" className="leaves" />
+            <div className='testimonials-wrapper'>
+                {allTestimonials}
+            </div>
+        </section>
     )
 }
 
-export default Testimonials
+export default Testimonials;

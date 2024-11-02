@@ -32,14 +32,8 @@ h1 {
     font-size: 15vw;
     text-transform: uppercase;
     background-color: var(--bg);
-    /* background-color: white;
-    background-color: black; */
     color: var(--text);
-    /* color: black;
-    color: white; */
     mix-blend-mode: var(--mix-blend-mode);
-    /* mix-blend-mode: screen;
-    mix-blend-mode: multiply; */
     font-family: "Cinzel", serif;
     text-align: center;
     margin-bottom: 0;

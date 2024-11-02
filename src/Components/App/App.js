@@ -3,7 +3,6 @@ import { Route, Routes} from 'react-router-dom';
 
 import Name from '../Name/Name';
 import Nav from '../Nav/Nav';
-// import Header from '../Header/Header';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Skills from '../Skills/Skills';
@@ -13,19 +12,19 @@ import Footer from '../Footer/Footer';
 import './App.css';
 
 function App() {
-  const [isLightMode, setLightMode] = useState(true);
+  const [isLightMode, setLightMode] = useState(false);
 
   const root = document.getElementById('root');
 
   if (!isLightMode) {
-    root.classList.add('dark')
+    root.classList.add('dark');
   } else  {
-    root.classList.remove('dark')
-  }
+    root.classList.remove('dark');
+  };
 
   const handleClick = () => {
     setLightMode(prev => !prev);
-  }
+  };
 
   return (
       <div className="App">
@@ -36,14 +35,14 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Name />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/about" element={<About isLightMode={isLightMode} />} />
+            <Route path="/contact" element={<Contact isLightMode={isLightMode} />} />
+            <Route path="/skills" element={<Skills isLightMode={isLightMode} />} />
+            <Route path="/projects" element={<Projects isLightMode={isLightMode}/>} />
+            <Route path="/testimonials" element={<Testimonials isLightMode={isLightMode}/>} />
           </Routes>
         </main>
-        <Footer />
+        <Footer isLightMode={isLightMode}/>
       </div>
   );
 }

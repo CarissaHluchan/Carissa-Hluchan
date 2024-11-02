@@ -1,10 +1,9 @@
 .project-section {
-    width: 75%;
+    width: min(90%, 50rem);
     height: Auto;
     position: absolute;
-    /* position: fixed; */
-    top: 3vw;
-    left: 7vw;
+    top: 0vw;
+    left: 0;
     background-color: var(--color-3);
     padding: 5vw;
     border: 1px solid var(--border);
@@ -17,19 +16,28 @@
         align-items: center;
     }
 
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
         margin: 0;
         padding: 0;
     }
 
-    h3, h4 {
+    h3,
+    h4 {
         color: var(--color-4);
-        font-size: 1.2rem;
         margin-top: 2rem;
     }
 
     .team-of {
         margin-bottom: 0.3rem;
+    }
+
+    .gif-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid red; */
     }
 
     img {
@@ -41,8 +49,8 @@
         align-items: center;
     }
 
-   .project-link {
-        font-family: "Cinzel", serif;
+    .project-link {
+        font-family: "Alegreya Sans SC", sans-serif;
         font-size: 0.8rem;
         font-weight: 700;
         color: var(--bg);
@@ -57,7 +65,6 @@
         display: flex;
         justify-content: space-evenly;
         padding: 1.5rem;
-        /* border: 1px solid red; */
     }
 
     button {
@@ -65,7 +72,7 @@
         font-weight: 700;
         padding: 0.5rem;
         background-color: var(--color-4);
-        font-family: "Cinzel", serif;
+        font-family: "Alegreya Sans SC", sans-serif;
         cursor: pointer;
         border-style: none;
         border-radius: 5px;
