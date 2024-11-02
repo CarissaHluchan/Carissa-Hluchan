@@ -5,13 +5,13 @@
 
     img, .img {
         width: 1.5rem;
+        height: 1.5rem;
+        margin: 1vw;
         margin-right: 2vw;
-        border-radius: 5px;
+        border-radius: 2px;
+        font-size: 1.6rem;
     }
 
-    .img {
-        width: 2rem;
-    }
 }
 
 .skills-wrapper {
@@ -42,7 +42,10 @@
     /* border: 1px solid green; */
 }
 
-.dark-icon {
-    /* background-color: var(--color-2); */
-    /* color: white; */
+.icon-dark-bg {
+    background-color: var(--color-1);
+}
+
+.icon-light-bg {
+    background-color: var(--color-2);
 }

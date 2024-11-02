@@ -1,10 +1,10 @@
 .project-section {
-    width: 75%;
+    width: 83%;
     height: Auto;
     position: absolute;
     /* position: fixed; */
-    top: 3vw;
-    left: 7vw;
+    top: 0vw;
+    left: 2vw;
     background-color: var(--color-3);
     padding: 5vw;
     border: 1px solid var(--border);
