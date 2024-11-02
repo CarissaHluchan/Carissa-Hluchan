@@ -41,7 +41,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  /* font-family: "Alegreya Sans SC", sans-serif; */
   font-size: 1rem;
 
   .toggle-svg {
@@ -70,7 +69,6 @@ body {
 }
 
 h2 {
-  /* font-family: "Cinzel", serif; */
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.8rem;
   color: var(--color-6);
@@ -81,7 +79,6 @@ h4,
 h5,
 h6 {
   color: var(--color-4);
-  /* font-family: "Cinzel", serif; */
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.4rem;
 }
