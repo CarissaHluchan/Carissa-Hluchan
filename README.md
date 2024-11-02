@@ -49,6 +49,7 @@ This application was built by:[Carissa Hluchan](https://github.com/CarissaHlucha
 - Present my skills and talents in Web Development
 - Practice React and Router code
 - work with some new libaries that I have not worked with before
+- Learn how to apply a light mode and dark mode toggle switch
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
