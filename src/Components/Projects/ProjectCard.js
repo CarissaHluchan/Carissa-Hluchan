@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import Modal from '@mui/material/Modal';
 
 import Project from './Project';
 import './ProjectCard.css';
@@ -6,21 +7,21 @@ import './ProjectCard.css';
 function ProjectCard({ id, title, description, technologies, collaborators, projectNotes, repo, liveSite }) {
     
     const [showProject, setShowProject] = useState(false);
-    const projectRef = useRef(null);
+    // const projectRef = useRef(null);
 
     const handleProjectClick = () => {
         setShowProject(true);
 
-        setTimeout(() => {
-            if (projectRef.current) {
-                projectRef.current.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start',
-                });
-            } else {
-                console.log('projectRef is not set');
-            }
-        }, 100); 
+        // setTimeout(() => {
+        //     if (projectRef.current) {
+        //         projectRef.current.scrollIntoView({
+        //             behavior: 'smooth',
+        //             block: 'start',
+        //         });
+        //     } else {
+        //         console.log('projectRef is not set');
+        //     }
+        // }, 100); 
     };
 
     const handleClickToClose = (event) => {
@@ -40,9 +41,15 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
             <p className='project-description'>{description}</p>
             <h4 className='tech'>Technologies:</h4>
             <div className='tech-box-wrapper'>{techBox}</div>
-            {showProject && (
+            <Modal
+            open={showProject}
+            onClose={handleClickToClose}
+            aria-labelledby=""
+            aria-describedby=""
+            className='modal-wrapper'
+            >
                 <Project 
-                    ref={projectRef} 
+                    // ref={projectRef} 
                     id={id}
                     title={title}
                     description={description}
@@ -53,7 +60,7 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
                     liveSite={liveSite}
                     handleClickToClose={handleClickToClose}
                 />
-            )}
+            </Modal>
         </div>
     );
 }

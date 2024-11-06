@@ -37,7 +37,7 @@ A portfolio page for Web Developer Carissa Hluchan
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 This project took me 4 hours to complete MVP.
-Updated verson now contains Router with a Nav bar and toggle for light and dark modes
+Updated version now contains Router with a Nav bar and toggle for light and dark modes
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
@@ -48,11 +48,11 @@ This application was built by:[Carissa Hluchan](https://github.com/CarissaHlucha
 - Build a JSON data set
 - Present my skills and talents in Web Development
 - Practice React and Router code
-- Work with some new libaries that I have not worked with before
+- Work with some new libraries that I have not worked with before
 - Learn how to apply a light mode and dark mode toggle switch
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
 - This was my first time building my own json file. I will be coming back to this project to learn Express BE fundamentals.
 - I found it particularly challenging to represent myself in one particular theme.
-- I worked with an image carousel libary in the about me section, which I read through some documentation to figure out how to customize it.
+- I worked with an image carousel library in the about me section, which I read through some documentation to figure out how to customize it.

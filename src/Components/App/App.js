@@ -14,13 +14,19 @@ import './App.css';
 function App() {
   const [isLightMode, setLightMode] = useState(false);
 
-  const root = document.getElementById('root');
+  // const root = document.getElementById('root');
 
   if (!isLightMode) {
-    root.classList.add('dark');
+    // root.classList.add('dark');
+    document.body.classList.add('dark');
   } else  {
-    root.classList.remove('dark');
+    // root.classList.remove('dark');
+    document.body.classList.remove('dark');
   };
+  
+  // if (document && document.body) {
+  //   document.body.classList('dark');
+  // } 
 
   const handleClick = () => {
     setLightMode(prev => !prev);
