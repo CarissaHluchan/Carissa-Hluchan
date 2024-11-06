@@ -1,11 +1,12 @@
 import { useState, useRef } from 'react';
 import Modal from '@mui/material/Modal';
+import { motion } from 'framer-motion';
 
 import Project from './Project';
 import './ProjectCard.css';
 
 function ProjectCard({ id, title, description, technologies, collaborators, projectNotes, repo, liveSite }) {
-    
+
     const [showProject, setShowProject] = useState(false);
     // const projectRef = useRef(null);
 
@@ -25,7 +26,7 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
     };
 
     const handleClickToClose = (event) => {
-        event.stopPropagation(); 
+        event.stopPropagation();
         setShowProject(false);
     };
 
@@ -36,19 +37,25 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
     });
 
     return (
-        <div className='project-wrapper' id={id} onClick={handleProjectClick}>
+        <motion.div className='project-wrapper'
+            id={id}
+            onClick={handleProjectClick}
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: 'spring' }}
+        >
             <h3 className='project-title'>{title}</h3>
             <p className='project-description'>{description}</p>
             <h4 className='tech'>Technologies:</h4>
             <div className='tech-box-wrapper'>{techBox}</div>
             <Modal
-            open={showProject}
-            onClose={handleClickToClose}
-            aria-labelledby=""
-            aria-describedby=""
-            className='modal-wrapper'
+                open={showProject}
+                onClose={handleClickToClose}
+                aria-labelledby=""
+                aria-describedby=""
+                className='modal-wrapper'
             >
-                <Project 
+                <Project
                     // ref={projectRef} 
                     id={id}
                     title={title}
@@ -61,7 +68,7 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
                     handleClickToClose={handleClickToClose}
                 />
             </Modal>
-        </div>
+        </motion.div>
     );
 }
 

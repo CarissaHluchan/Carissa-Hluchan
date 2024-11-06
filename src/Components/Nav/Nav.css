@@ -19,6 +19,7 @@ nav {
 }
 
 .nav-link {
+    color: var(--text);
     background-color: var(--color-7);
     font-family: "Alegreya Sans SC", sans-serif;
     font-size: clamp(0.7rem, 1.2vw, 1.2rem);
@@ -27,9 +28,16 @@ nav {
     padding-left: 0.6rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+    border-style: none;
     border-radius: 5px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-link.active {
+    border-color: var(--border);
+    border-style: solid;
 }
 
 .toggle-moon {
