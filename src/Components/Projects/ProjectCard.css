@@ -54,3 +54,20 @@
 .tech-image-dark-bg {
     background-color: var(--color-1);
 }
+
+/*----// modal //----*/
+
+.modal-wrapper {
+    width: min(90%, 50rem);
+    height: Auto;
+    overflow-y: auto;
+    position: fixed;
+    top: 2rem !important;
+    left: 50vw !important;
+    transform: translateX(-50%);
+    bottom: 2rem !important;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+
+    background-color: var(--color-3) !important;
+}

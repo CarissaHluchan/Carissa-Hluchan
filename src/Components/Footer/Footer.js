@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 import gitHubDark from '../../assets/github-dark.svg';
 import gitHubLight from '../../assets/github-light.svg';
@@ -15,10 +16,20 @@ function Footer({ isLightMode }) {
     <footer>
       <div className='footer-link-wrapper'>
         <Link to='https://github.com/CarissaHluchan'>
-          <img src={gitHubIcon} className='footer-link' />
+          <motion.img
+            src={gitHubIcon}
+            className='footer-link'
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: 'spring' }} />
         </Link>
         <Link to='https://www.linkedin.com/in/carissahluchan/'>
-          <img src={linkedInIcon} className='footer-link' />
+          <motion.img
+            src={linkedInIcon}
+            className='footer-link'
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: 'spring' }} />
         </Link>
       </div>
       <p>Thank you for checking out my site</p>
