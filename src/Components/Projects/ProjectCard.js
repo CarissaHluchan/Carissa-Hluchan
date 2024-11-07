@@ -32,7 +32,11 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
 
     const techBox = technologies.map((tech, index) => {
         return (
-            <img key={index} src={tech} alt={`Technology logo for ${technologies[index]}`} className={tech.includes('react-original') ? 'tech-image-dark-bg' : 'tech-image'} />
+            <img
+                key={index}
+                src={tech}
+                alt={`Technology logo for ${technologies[index]}`}
+                className={tech.includes('react-original') ? 'tech-image-dark-bg' : 'tech-image'} />
         );
     });
 

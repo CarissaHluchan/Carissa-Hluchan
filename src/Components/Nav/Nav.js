@@ -8,27 +8,69 @@ import './Nav.css';
 
 function Nav({ isLightMode, handleClick }) {
 
-  const [ currentRoute, setCurrentRoute] = useState();
+  const [currentRoute, setCurrentRoute] = useState();
 
   const handleActiveRoute = (event) => {
     //add id to state
+    console.log(event.target.innerText, 'event')
+    setCurrentRoute(event.target.innerText)
   }
 
   return (
     <nav>
       <Link to='/about'>
         <motion.button
-          className={`nav-link${currentRoute === 'about' ? ' active' : ''}`}
+          className={`nav-link${currentRoute === 'About' ? ' active' : ''}`}
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
-          transition={{ type: 'spring' }}>About</motion.button></Link>
-      <Link to='/contact' className='nav-link'>Contact</Link>
-      <Link to='/skills' className='nav-link'>Skills</Link>
-      <Link to='/projects' className='nav-link'>Projects</Link>
-      <Link to='/testimonials' className='nav-link'>Testimonials</Link>
-      <button id='dark-mode-toggle' onClick={handleClick}>
-        {isLightMode ? <FaSun className='toggle-sun' /> : <FaMoon className='toggle-moon' />}
-      </button>
+          transition={{ type: 'spring' }}
+          onClick={handleActiveRoute}
+        >About</motion.button>
+      </Link>
+      <Link to='/contact'>
+        <motion.button
+          className={`nav-link${currentRoute === 'Contact' ? ' active' : ''}`}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: 'spring' }}
+          onClick={handleActiveRoute}
+        >Contact</motion.button>
+      </Link>
+      <Link to='/skills'>
+        <motion.button
+          className={`nav-link${currentRoute === 'Skills' ? ' active' : ''}`}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: 'spring' }}
+          onClick={handleActiveRoute}
+        >Skills</motion.button>
+      </Link>
+      <Link to='/projects'>
+        <motion.button
+          className={`nav-link${currentRoute === 'Projects' ? ' active' : ''}`}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: 'spring' }}
+          onClick={handleActiveRoute}
+        >Projects</motion.button>
+      </Link>
+      <Link to='/testimonials'>
+        <motion.button
+          className={`nav-link${currentRoute === 'Testimonials' ? ' active' : ''}`}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: 'spring' }}
+          onClick={handleActiveRoute}
+        >Testimonials</motion.button>
+      </Link>
+      <motion.button
+        id='dark-mode-toggle'
+        onClick={handleClick}
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: 'spring' }}
+      >{isLightMode ? <FaSun className='toggle-sun' /> : <FaMoon className='toggle-moon' />}
+      </motion.button>
     </nav>
   )
 }
