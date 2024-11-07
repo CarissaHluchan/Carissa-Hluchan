@@ -8,21 +8,9 @@ import './ProjectCard.css';
 function ProjectCard({ id, title, description, technologies, collaborators, projectNotes, repo, liveSite }) {
 
     const [showProject, setShowProject] = useState(false);
-    // const projectRef = useRef(null);
 
     const handleProjectClick = () => {
         setShowProject(true);
-
-        // setTimeout(() => {
-        //     if (projectRef.current) {
-        //         projectRef.current.scrollIntoView({
-        //             behavior: 'smooth',
-        //             block: 'start',
-        //         });
-        //     } else {
-        //         console.log('projectRef is not set');
-        //     }
-        // }, 100); 
     };
 
     const handleClickToClose = (event) => {

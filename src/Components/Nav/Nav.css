@@ -36,7 +36,7 @@ nav {
 }
 
 .nav-link.active {
-    border-color: var(--border);
+    border-color: 1px solid var(--border);
     border-style: solid;
 }
 

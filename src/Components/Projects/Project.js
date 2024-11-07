@@ -41,9 +41,7 @@ const Project = forwardRef(({ id, title, description, collaborators, projectNote
           <h3>Co-Collaborators:</h3>
           <p className='team-of'>Team of - {collaborators.length + 1}</p>
           <div>{collaborators.join(', ')}</div>
-        </>
-      ) : (
-        <h3>Solo project</h3>
+        </> ) : ( <h3>Solo project</h3>
       )}
       <h4>Project Notes:</h4>
       <div>{notes}</div>
