@@ -539,6 +539,72 @@
         },
         {
             "id": 4,
+            "title": "News Wire",
+            "description": "An app that shows an overview of news articles from various sources to read by date.",
+            "technologies": [
+                {
+                    "name": "React",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+                    "url": "https://reactjs.org/docs/getting-started.html"
+                },
+                {
+                    "name": "React Router",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg",
+                    "url": "https://reactrouter.com/en/main"
+                },
+                {
+                    "name": "Cypress",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg",
+                    "url": "https://docs.cypress.io/"
+                },
+                {
+                    "name": "CSS",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+                },
+                {
+                    "name": "GitHub",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg",
+                    "url": "https://docs.github.com/"
+                },
+                {
+                    "name": "Moment.js",
+                    "icon": "https://static.cdnlogo.com/logos/m/4/moment-js.svg",
+                    "url": "https://momentjs.com/docs/"
+                },
+                {
+                    "name": "npm",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
+                    "url": "https://docs.npmjs.com/"
+                },
+                {
+                    "name": "Canva",
+                    "icon": "https://img.utdstc.com/icon/431/c6b/431c6be8e8dbb358738980c75c35c56ee8e8c3238089ed9b6f04d295d4008970:200",
+                    "url": "https://www.canva.com/"
+                },
+                {
+                    "name": "Color Contrast",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/603/603492.png",
+                    "url": "https://webaim.org/articles/contrast/"
+                },
+                {
+                    "name": "Color Theory",
+                    "icon": "https://www.svgrepo.com/show/439109/color-wheel.svg",
+                    "url": "https://www.interaction-design.org/literature/topics/color-theory#:~:text=Color%20theory%20is%20the%20study,right%20colors%20for%20their%20projects."
+                }
+            ],
+            "repo": "https://github.com/CarissaHluchan/news-wire",
+            "live_site": "",
+            "project_notes": [
+                "Building a calendar in React: With research, I found additional libraries with prebuilt components to handle the Controler and DatePicker.",
+                "Working with the API's date format: I found the best way to manipulate the date was with Moment. I was then able to use the date for the id for NewsCards and for the URL of the DetailedView.",
+                "Keeping to the time limit of 8 hours: proved challenging and I went over. Most of my time going over was surrounded around the research of the DatePicker and unit testing in React as this was my first time working with these.",
+                "Ambition to learn unit testing with React: Due to the time limit I was not able to complete this. I would need more time available to learn React Unit Testing. It's on my to-do list."
+            ],
+            "collaborators": null
+        },
+        {
+            "id": 5,
             "title": "Crusty Carrots",
             "description": "A movie discovery site, allowing users to discover movies based on title and ratings.",
             "technologies": [
@@ -606,7 +672,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Overlook Hotel",
             "description": "A hotel booking tool for hotel customers to search rooms at the Overlook Hotel, manage room bookings and calculate bills.",
             "technologies": [
@@ -706,7 +772,7 @@
             "collaborators": null
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "What's Cookin",
             "description": "A recipe tracking / meal planning application that allows users to view recipes they want to cook & plan shopping trips around them. Users can view a list of recipes, filter them by name or tag, & choose recipes to cook.",
             "technologies": [
@@ -749,7 +815,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Rock Paper Scissors",
             "description": "A game to play two versions of Rock, Paper, Scissors, a classic version, and a more difficult version with five fighter choices adding a lizard and alien/UFO.",
             "technologies": [

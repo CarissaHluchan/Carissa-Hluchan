@@ -3,6 +3,7 @@ import { forwardRef } from 'react';
 import chessGif from '../../assets/gifs/chess.gif';
 import whiskerGif from '../../assets/gifs/whisker-watch.gif';
 import redGif from '../../assets/gifs/red-horizon.gif';
+import newsGif from '../../assets/gifs/news-wire.gif';
 import carrotGif from '../../assets/gifs/crusty-carrots.gif';
 import overlookGif from '../../assets/gifs/overlook-hotel.gif';
 import cookingGif from '../../assets/gifs/whats-cookin.gif';
@@ -14,10 +15,11 @@ const Project = forwardRef(({ id, title, description, collaborators, projectNote
     1: chessGif,
     2: whiskerGif,
     3: redGif,
-    4: carrotGif,
-    5: overlookGif,
-    6: cookingGif,
-    7: rockGif
+    4: newsGif,
+    5: carrotGif,
+    6: overlookGif,
+    7: cookingGif,
+    8: rockGif
   };
 
   const notes = Array.isArray(projectNotes) ? projectNotes.map((note, index) => (
