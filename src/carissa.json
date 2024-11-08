@@ -1,11 +1,200 @@
 {
     "about": [
-        {"paragraph_1": "I am a front-end developer in React, JavaScript, CSS, and HTML. After a decade as an Ophthalmic Photographer, where I mastered the technical aspects of specialized equipment and microscopes, I realized I was ready for a new challenge. Seeking a career that fosters continual learning and growth, I transitioned into software development, completing an immersive program at Turing School of Software and Design."},
-        {"paragraph_2": "During this transition, I discovered my passion for building engaging and dynamic user experiences. I thrive in environments that push me to be both persistent and creative, tackling problems from different angles to find effective solutions. Through my work at Turing, I’ve honed my skills in software testing practices such as, unit testing, and Cypress. I’ve developed a deep appreciation for collaborative problem-solving in group projects. I’m especially passionate about styling and UI design—creating visually compelling, intuitive interfaces that delight users. Whether it’s crafting responsive layouts or exploring innovative CSS techniques, I love using my creativity to bring ideas to life."},
-        {"paragraph_3": "When I’m not coding, you’ll find me outdoors—hiking, rock climbing, split boarding, and more. The challenge and creativity I find in outdoor adventures often fuel my problem-solving approach as a developer. I had a four year project where I climbed all 58 peaks in Colorado, over 14,000 ft in elevation. I started small, one mountain at a time, tackling the easier class 2 mountains first and gradually tackling the more difficult summits class 3 and class 4. After finishing the project, I went back to some of these peaks and tackled them with more skills on class 5 routes, multi-pitched with rock climbing gear. This journey reflects my approach to software development—starting with a solid foundation, learning, growing, and taking on bigger challenges."},
-        {"paragraph_4": "Let’s connect! Explore my portfolio and GitHub for more on my projects, and feel free to message me on LinkedIn, Slack or SMS to discuss potential collaborations or opportunities."}
+        {
+            "paragraph_1": "I am a front-end developer in React, JavaScript, CSS, and HTML. After a decade as an Ophthalmic Photographer, where I mastered the technical aspects of specialized equipment and microscopes, I realized I was ready for a new challenge. Seeking a career that fosters continual learning and growth, I transitioned into software development, completing an immersive program at Turing School of Software and Design."
+        },
+        {
+            "paragraph_2": "During this transition, I discovered my passion for building engaging and dynamic user experiences. I thrive in environments that push me to be both persistent and creative, tackling problems from different angles to find effective solutions. Through my work at Turing, I’ve honed my skills in software testing practices such as, unit testing, and Cypress. I’ve developed a deep appreciation for collaborative problem-solving in group projects. I’m especially passionate about styling and UI design—creating visually compelling, intuitive interfaces that delight users. Whether it’s crafting responsive layouts or exploring innovative CSS techniques, I love using my creativity to bring ideas to life."
+        },
+        {
+            "paragraph_3": "When I’m not coding, you’ll find me outdoors—hiking, rock climbing, split boarding, and more. The challenge and creativity I find in outdoor adventures often fuel my problem-solving approach as a developer. I had a four year project where I climbed all 58 peaks in Colorado, over 14,000 ft in elevation. I started small, one mountain at a time, tackling the easier class 2 mountains first and gradually tackling the more difficult summits class 3 and class 4. After finishing the project, I went back to some of these peaks and tackled them with more skills on class 5 routes, multi-pitched with rock climbing gear. This journey reflects my approach to software development—starting with a solid foundation, learning, growing, and taking on bigger challenges."
+        },
+        {
+            "paragraph_4": "Let’s connect! Explore my portfolio and GitHub for more on my projects, and feel free to message me on LinkedIn, Slack or SMS to discuss potential collaborations or opportunities."
+        }
     ],
-    "skills": "",
+    "skills": [
+        {
+            "categoryName": "Languages",
+            "skills": [
+                {
+                    "name": "JavaScript",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                },
+                {
+                    "name": "TypeScript",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+                    "url": "https://www.typescriptlang.org/docs/"
+                },
+                {
+                    "name": "HTML",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+                },
+                {
+                    "name": "CSS",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+                }
+            ]
+        },
+        {
+            "categoryName": "Libraries",
+            "skills": [
+                {
+                    "name": "React",
+                    "icon": "https://static-00.iconduck.com/assets.00/react-icon-2048x2048-o8k3ymqa.png",
+                    "url": "https://reactjs.org/docs/getting-started.html"
+                },
+                {
+                    "name": "React Router",
+                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5oo3A5OYOy0PquG0xumkKLJv7OMM4Iv-B6AxgTK8FPf9pmtgP0wcjs6gSDryuz3Gqy-U&usqp=CAU",
+                    "url": "https://reactrouter.com/en/main"
+                },
+                {
+                    "name": "Moment.js",
+                    "icon": "https://static.cdnlogo.com/logos/m/4/moment-js.svg",
+                    "url": "https://momentjs.com/docs/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Testing",
+            "skills": [
+                {
+                    "name": "Test-Driven Development (TDD)",
+                    "icon": "https://codingdodo.com/content/images/size/w1000/2021/04/tag-TDD.png",
+                    "url": "https://en.wikipedia.org/wiki/Test-driven_development"
+                },
+                {
+                    "name": "Mocha",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg",
+                    "url": "https://mochajs.org/"
+                },
+                {
+                    "name": "Chai",
+                    "icon": "http://chaijs.com/img/chai-logo.png",
+                    "url": "https://www.chaijs.com/"
+                },
+                {
+                    "name": "Cypress",
+                    "icon": "https://yt3.googleusercontent.com/iD0oePTGV8tZwEEP_WEG2rvyNiQAVfmjhawFMCj17ARjjmw-J70k9NDjSE5QTzD9Vk3ayBU=s900-c-k-c0x00ffffff-no-rj",
+                    "url": "https://docs.cypress.io/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Workflow",
+            "skills": [
+                {
+                    "name": "GitHub",
+                    "icon": "https://camo.githubusercontent.com/4374f0b29a45f7d158ec8fe94398eb90f4ac94c03d6b99346b99e916e5157cb9/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f706e672f6769746875622e706e67",
+                    "url": "https://docs.github.com/"
+                },
+                {
+                    "name": "GitHub Actions",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+                    "url": "https://docs.github.com/en/actions"
+                },
+                {
+                    "name": "npm",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
+                    "url": "https://docs.npmjs.com/"
+                },
+                {
+                    "name": "Vite.js",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+                    "url": "https://vitejs.dev/guide/"
+                },
+                {
+                    "name": "PostMan",
+                    "icon": "https://www.svgrepo.com/show/354202/postman-icon.svg",
+                    "url": "https://learning.postman.com/docs/introduction/overview/#home"
+                }
+            ]
+        },
+        {
+            "categoryName": "Hosting",
+            "skills": [
+                {
+                    "name": "GitHub Pages",
+                    "icon": "https://camo.githubusercontent.com/4374f0b29a45f7d158ec8fe94398eb90f4ac94c03d6b99346b99e916e5157cb9/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f706e672f6769746875622e706e67",
+                    "url": "https://docs.github.com/en/pages"
+                },
+                {
+                    "name": "Vercel",
+                    "icon": "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png",
+                    "url": "https://vercel.com/docs"
+                }
+            ]
+        },
+        {
+            "categoryName": "Design",
+            "skills": [
+                {
+                    "name": "Responsive Design",
+                    "icon": "https://www.svgrepo.com/show/234850/responsive.svg",
+                    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+                },
+                {
+                    "name": "Adobe Illustrator",
+                    "icon": "https://www.svgrepo.com/show/452147/adobe-illustrator.svg",
+                    "url": "https://helpx.adobe.com/illustrator/user-guide.html"
+                },
+                {
+                    "name": "Adobe Photoshop",
+                    "icon": "https://www.svgrepo.com/show/452149/adobe-photoshop.svg",
+                    "url": "https://helpx.adobe.com/photoshop/user-guide.html"
+                },
+                {
+                    "name": "Color Theory",
+                    "icon": "https://www.svgrepo.com/show/439109/color-wheel.svg",
+                    "url": "https://www.interaction-design.org/literature/topics/color-theory#:~:text=Color%20theory%20is%20the%20study,right%20colors%20for%20their%20projects."
+                },
+                {
+                    "name": "Photography",
+                    "icon": "https://cdn5.vectorstock.com/i/1000x1000/30/79/camera-professional-photography-icon-vector-13203079.jpg",
+                    "url": "https://www.canva.com/colors/color-wheel/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Accessibility",
+            "skills": [
+                {
+                    "name": "WCAG Standards",
+                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdPQT2T9QHaFcLANweZVG2ixlfmAB5r7P5qA&s",
+                    "url": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+                },
+                {
+                    "name": "ARIA",
+                    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdPQT2T9QHaFcLANweZVG2ixlfmAB5r7P5qA&s",
+                    "url": "https://www.w3.org/TR/html-aria/#docconformance"
+                },
+                {
+                    "name": "Screen Readers",
+                    "icon": "https://www.svgrepo.com/show/513344/speaker.svg",
+                    "url": "https://webaim.org/articles/screenreader_testing/"
+                },
+                {
+                    "name": "Chrome Dev Tools - Lighthouse",
+                    "icon": "https://raw.githubusercontent.com/GoogleChrome/lighthouse/HEAD/assets/lighthouse-logo_512px.png",
+                    "url": "https://developer.chrome.com/docs/lighthouse/overview/"
+                },
+                {
+                    "name": "Wave",
+                    "icon": "https://lh3.googleusercontent.com/h2ECY8Ob8qxF28QRCB_hinHECmj0dyJHw1aGAKz_rBiK2USeQUT8M5WvqBpFssAYZo9nClfmKz3sKpS4P0TBlzhBkw=s128-rj-sc0x00ffffff",
+                    "url": "https://wave.webaim.org/"
+                },
+                {
+                    "name": "Color Contrast",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/603/603492.png",
+                    "url": "https://webaim.org/articles/contrast/"
+                }
+            ]
+        }
+    ],
     "testimonials": [
         {
             "id": 1,
