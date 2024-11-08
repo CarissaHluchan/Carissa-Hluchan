@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import Modal from '@mui/material/Modal';
 import { motion } from 'framer-motion';
 
@@ -48,7 +48,6 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
                 className='modal-wrapper'
             >
                 <Project
-                    // ref={projectRef} 
                     id={id}
                     title={title}
                     description={description}

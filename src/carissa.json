@@ -56,6 +56,16 @@
                     "name": "Moment.js",
                     "icon": "https://static.cdnlogo.com/logos/m/4/moment-js.svg",
                     "url": "https://momentjs.com/docs/"
+                },
+                {
+                    "name": "Material UI",
+                    "icon": "https://static-00.iconduck.com/assets.00/material-ui-icon-1024x814-sytj0yhk.png",
+                    "url": "https://www.framer.com/motion/"
+                },
+                {
+                    "name": "...more",
+                    "icon": "https://img.freepik.com/premium-vector/more-icon-isolated-white-background-vector-illustration_736051-706.jpg",
+                    "url": ""
                 }
             ]
         },
@@ -65,7 +75,7 @@
                 {
                     "name": "Test-Driven Development",
                     "icon": "https://codingdodo.com/content/images/size/w1000/2021/04/tag-TDD.png",
-                    "url": "https://en.wikipedia.org/wiki/Test-driven_development"
+                    "url": "https://agiledata.org/essays/tdd.html"
                 },
                 {
                     "name": "Mocha",
@@ -155,7 +165,7 @@
                 {
                     "name": "Photography",
                     "icon": "https://cdn5.vectorstock.com/i/1000x1000/30/79/camera-professional-photography-icon-vector-13203079.jpg",
-                    "url": "https://www.canva.com/colors/color-wheel/"
+                    "url": "https://www.rit.edu/study/photographic-sciences-bs"
                 }
             ]
         },
