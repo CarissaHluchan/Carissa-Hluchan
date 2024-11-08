@@ -2,6 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import aboutData from '../../carissa.json';
+import carissa0 from '../../assets/carissa0.jpg';
 import carissa from '../../assets/carissa.jpg';
 import carissa1 from '../../assets/carissa1.jpg';
 import carissa3 from '../../assets/carissa3.jpg';
@@ -14,7 +15,7 @@ import leavesDark from '../../assets/leaves-dark.png';
 import './About.css';
 
 const images = [
-  carissa, carissa1, carissa3, carissa4, carissa5, carissa7
+  carissa0, carissa, carissa1, carissa3, carissa4, carissa5, carissa7
 ];
 
 function About({ isLightMode }) {
