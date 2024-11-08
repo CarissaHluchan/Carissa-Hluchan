@@ -58,6 +58,11 @@
                     "url": "https://momentjs.com/docs/"
                 },
                 {
+                    "name": "Framer Motion",
+                    "icon": "https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png",
+                    "url": "https://www.framer.com/blog/animated-icons/"
+                },
+                {
                     "name": "Material UI",
                     "icon": "https://static-00.iconduck.com/assets.00/material-ui-icon-1024x814-sytj0yhk.png",
                     "url": "https://www.framer.com/motion/"

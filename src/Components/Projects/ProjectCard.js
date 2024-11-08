@@ -28,7 +28,6 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
                 className="skill-wrapper"
             >
                 <motion.img
-                    // key={index}
                     src={tech.icon}
                     alt={`Technology logo for ${tech.name}`}
                     whileHover={{ scale: 1.1 }}

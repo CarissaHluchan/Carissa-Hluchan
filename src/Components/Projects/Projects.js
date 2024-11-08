@@ -16,9 +16,6 @@ function Projects({ isLightMode }) {
       title={project.title}
       description={project.description}
       technologies={project.technologies}
-      // techName={project.technologies.name}
-      // techIcon={project.technologies.icon}
-      // techUrl={project.technologies.url}
       collaborators={project.collaborators}
       projectNotes={project.project_notes}
       repo={project.repo}

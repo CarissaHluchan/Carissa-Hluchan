@@ -11,7 +11,6 @@ function Nav({ isLightMode, handleClick }) {
   const [currentRoute, setCurrentRoute] = useState();
 
   const handleActiveRoute = (event) => {
-    //add id to state
     console.log(event.target.innerText, 'event')
     setCurrentRoute(event.target.innerText)
   }
