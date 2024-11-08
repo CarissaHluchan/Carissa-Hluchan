@@ -32,7 +32,7 @@ A portfolio page for Web Developer Carissa Hluchan
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-![chrome-capture-2024-11-2](https://github.com/user-attachments/assets/4e6fba54-db89-43c8-89ac-b1e0911247bc)
+![carissa-porfolio-gif](https://github.com/user-attachments/assets/da6ce32b-d426-43d1-b2d3-85798514b07c)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
