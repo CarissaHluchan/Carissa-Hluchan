@@ -20,11 +20,23 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
 
     const techBox = technologies.map((tech, index) => {
         return (
-            <img
+            <a
                 key={index}
-                src={tech}
-                alt={`Technology logo for ${technologies[index]}`}
-                className={tech.includes('react-original') ? 'tech-image-dark-bg' : 'tech-image'} />
+                href={tech.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="skill-wrapper"
+            >
+                <motion.img
+                    // key={index}
+                    src={tech.icon}
+                    alt={`Technology logo for ${tech.name}`}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: 'spring' }}
+                    className={tech.url && tech.url.includes('react-original') ? 'tech-image-dark-bg' : 'tech-image'}
+                />
+            </a>
         );
     });
 
@@ -43,8 +55,8 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
             <Modal
                 open={showProject}
                 onClose={handleClickToClose}
-                aria-labelledby=""
-                aria-describedby=""
+                // aria-labelledby=""
+                // aria-describedby=""
                 className='modal-wrapper'
             >
                 <Project

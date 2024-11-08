@@ -4,6 +4,10 @@
     position: absolute;
     top: 0vw;
     left: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background-color: var(--color-3) !important;
     padding: 5vw;
     /* border: 1px solid var(--border);
@@ -11,6 +15,7 @@
     font-size: 1rem;
 
     .project-header {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -57,6 +62,7 @@
         background-color: var(--color-6);
         padding: 0.5rem;
         border-radius: 5px;
+        margin: 1.5rem;
         cursor: pointer;
     }
 
@@ -64,7 +70,7 @@
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        padding: 1.5rem;
+        /* padding: 1.5rem; */
     }
 
     button {
@@ -78,3 +84,10 @@
         border-radius: 5px;
     }
 }
+
+/* .project-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
