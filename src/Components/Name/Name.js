@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 import mountainsVideo from '../../assets/mp4/mountains_with_audio.mp4';
 import nebulaVideo from '../../assets/mp4/nebula_with_audio.mp4';
@@ -8,22 +8,28 @@ import './Name.css';
 const videos = [nebulaVideo, growingVideo, mountainsVideo];
 
 function Name() {
-
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const videoRef = useRef(null);
 
   const handleVideoEnd = () => {
     setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videos.length);
   };
 
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load();
+    }
+  }, [currentVideoIndex]);
+
   return (
     <>
       <main className='name-section'>
-      <video 
+        <video 
+          ref={videoRef}
           autoPlay 
           muted 
           playsInline 
           onEnded={handleVideoEnd}
-          key={currentVideoIndex}
         >
           <source
             src={videos[currentVideoIndex]}
