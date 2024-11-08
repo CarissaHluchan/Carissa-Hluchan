@@ -15,9 +15,9 @@ const Project = forwardRef(({ id, title, description, collaborators, projectNote
     1: chessGif,
     2: whiskerGif,
     3: redGif,
-    4: newsGif,
+    4: overlookGif,
     5: carrotGif,
-    6: overlookGif,
+    6: newsGif,
     7: cookingGif,
     8: rockGif
   };
