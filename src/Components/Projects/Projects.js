@@ -5,7 +5,7 @@ import leaves from '../../assets/leaves.png';
 import leavesDark from '../../assets/leaves-dark.png';
 import './Projects.css';
 
-function Projects({ isLightMode, setIsModalOpen }) {
+function Projects({ isLightMode }) {
 
   const projects = projectsData.projects;
 
@@ -20,7 +20,6 @@ function Projects({ isLightMode, setIsModalOpen }) {
       projectNotes={project.project_notes}
       repo={project.repo}
       liveSite={project.live_site}
-      setIsModalOpen={setIsModalOpen}
     />
   ));
 
