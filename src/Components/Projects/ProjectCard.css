@@ -15,7 +15,6 @@
         color: var(--color-6);
         font-size: 1.7rem;
         font-weight: 700;
-        /* margin-bottom: 1rem; */
     }
 
     .project-image {
@@ -74,4 +73,5 @@
     border: 1px solid var(--border);
     border-radius: 5px;
     background-color: var(--color-3) !important;
+    z-index: 10;
 }
