@@ -39,11 +39,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));
+    gap: 0.3rem; 
+    justify-items: center;  */
 }
 
 .tech-image,
 .tech-image-dark-bg {
-    height: 4rem;
+    height: 2.5rem;
     width: auto;
     padding: 0.3rem;
     background-color: var(--color-2);
@@ -56,18 +60,16 @@
 }
 
 /*----// modal //----*/
-
 .modal-wrapper {
     width: min(90%, 50rem);
-    height: Auto;
-    overflow-y: auto;
+    height: fit-content;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto; 
     position: fixed;
     top: 2rem !important;
     left: 50vw !important;
     transform: translateX(-50%);
-    bottom: 2rem !important;
     border: 1px solid var(--border);
     border-radius: 5px;
-
     background-color: var(--color-3) !important;
 }
