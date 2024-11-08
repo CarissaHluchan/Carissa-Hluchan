@@ -1,17 +1,10 @@
 .project-section {
-    /* width: min(90%, 50rem);
-    height: Auto;
-    position: absolute;
-    top: 0vw;
-    left: 0; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-color: var(--color-3) !important;
     padding: 5vw;
-    /* border: 1px solid var(--border);
-    border-radius: 5px; */
     font-size: 1rem;
 
     .project-header {
@@ -42,7 +35,6 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        /* border: 1px solid red; */
     }
 
     img {
@@ -70,7 +62,6 @@
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        /* padding: 1.5rem; */
     }
 
     button {
@@ -84,10 +75,3 @@
         border-radius: 5px;
     }
 }
-
-/* .project-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
