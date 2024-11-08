@@ -7,8 +7,8 @@ import './Name.css';
 
 const videos = [nebulaVideo, growingVideo, mountainsVideo];
 
-function Name({ isModalOpen }) {
-  
+function Name() {
+
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   useEffect(() => {
@@ -22,12 +22,12 @@ function Name({ isModalOpen }) {
   return (
     <>
       <main className='name-section'>
-        {!isModalOpen && (<video autoPlay muted loop key={currentVideoIndex}>
+        <video autoPlay muted loop key={currentVideoIndex} playsInline>
           <source
             src={videos[currentVideoIndex]}
             type="video/mp4"
           />
-        </video>)}
+        </video>
         <div className="name-container">
           <h1><span className='carissa'>Carissa</span><span className='hluchan'>Hluchan</span><span className='h1-span'>Software Developer</span></h1>
         </div>

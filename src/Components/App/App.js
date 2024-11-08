@@ -14,19 +14,15 @@ import './App.css';
 function App() {
   const [isLightMode, setLightMode] = useState(false);
 
-  const [isModalOpen, setIsModalOpen] = useState(false)
-
   if (!isLightMode) {
     document.body.classList.add('dark');
   } else  {
     document.body.classList.remove('dark');
   };
   
-
   const handleClick = () => {
     setLightMode(prev => !prev);
   };
-
 
   return (
       <div className="App">
@@ -36,11 +32,11 @@ function App() {
         </header>
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<Name isModalOpen={isModalOpen}/>} />
+            <Route path="/" element={<Name />} />
             <Route path="/about" element={<About isLightMode={isLightMode} />} />
             <Route path="/contact" element={<Contact isLightMode={isLightMode} />} />
             <Route path="/skills" element={<Skills isLightMode={isLightMode} />} />
-            <Route path="/projects" element={<Projects isLightMode={isLightMode} setIsModalOpen={setIsModalOpen}/>} />
+            <Route path="/projects" element={<Projects isLightMode={isLightMode} />} />
             <Route path="/testimonials" element={<Testimonials isLightMode={isLightMode}/>} />
           </Routes>
         </main>

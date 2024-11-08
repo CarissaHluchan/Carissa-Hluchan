@@ -15,7 +15,7 @@ import './ProjectCard.css';
 
 
 
-function ProjectCard({ id, title, description, technologies, collaborators, projectNotes, repo, liveSite, setIsModalOpen }) {
+function ProjectCard({ id, title, description, technologies, collaborators, projectNotes, repo, liveSite }) {
     
     const [showProject, setShowProject] = useState(false);
     
@@ -32,13 +32,11 @@ function ProjectCard({ id, title, description, technologies, collaborators, proj
 
     const handleProjectClick = () => {
         setShowProject(true);
-        setIsModalOpen(true);
     };
 
     const handleClickToClose = (event) => {
         event.stopPropagation();
         setShowProject(false);
-        setIsModalOpen(false);
     };
 
     const techBox = technologies.map((tech, index) => {
