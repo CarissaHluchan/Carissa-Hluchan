@@ -63,7 +63,7 @@
             "categoryName": "Testing",
             "skills": [
                 {
-                    "name": "Test-Driven Development (TDD)",
+                    "name": "Test-Driven Development",
                     "icon": "https://codingdodo.com/content/images/size/w1000/2021/04/tag-TDD.png",
                     "url": "https://en.wikipedia.org/wiki/Test-driven_development"
                 },
