@@ -121,6 +121,16 @@
                     "name": "PostMan",
                     "icon": "https://www.svgrepo.com/show/354202/postman-icon.svg",
                     "url": "https://learning.postman.com/docs/introduction/overview/#home"
+                },
+                {
+                    "name": "Miro",
+                    "icon": "https://store-images.s-microsoft.com/image/apps.59334.da7f283b-9ae8-462d-968c-37937444d8e9.94b0a2b8-1808-4bf5-987d-ab0d9b98780e.05b65b02-4545-49e7-b530-981ac20aa7a2.png",
+                    "url": "https://miro.com/"
+                },
+                {
+                    "name": "Canva",
+                    "icon": "https://img.utdstc.com/icon/431/c6b/431c6be8e8dbb358738980c75c35c56ee8e8c3238089ed9b6f04d295d4008970:200",
+                    "url": "https://www.canva.com/"
                 }
             ]
         },
