@@ -15,7 +15,13 @@
         color: var(--color-6);
         font-size: 1.7rem;
         font-weight: 700;
-        margin-bottom: 0.1rem;
+        /* margin-bottom: 1rem; */
+    }
+
+    .project-image {
+        width: 100%;
+        border: 1px solid var(--border);
+        border-radius: 5px;
     }
 
     .tech {
