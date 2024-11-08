@@ -56,3 +56,5 @@ This application was built by:[Carissa Hluchan](https://github.com/CarissaHlucha
 - This was my first time building my own json file. I will be coming back to this project to learn Express BE fundamentals.
 - I found it particularly challenging to represent myself in one particular theme.
 - I worked with an image carousel library in the about me section, which I read through some documentation to figure out how to customize it.
+- I found Material UI and Framer Motion libararies to add.
+- Completed additional refactors so the code is more dynamic
